@@ -131,7 +131,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: var(--wp--preset--spacing--40) var(--wp--preset--spacing--40) 0;
+  padding: 0 var(--wp--preset--spacing--40) 0;
   z-index: 2;
   animation: heroFadeDown 1.8s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
   position: relative;
@@ -198,7 +198,7 @@ a {
   text-shadow:
     0 0 40px rgba(201,168,76,0.3),
     0 0 80px rgba(123,47,190,0.2),
-    0 2px 4px rgba(0,0,0,0.8);
+    0 2px 4px rgba(0,0,0,0.3);
   animation: heroReveal 2.4s cubic-bezier(0.22, 1, 0.36, 1) 0.8s both;
   max-width: 14ch;
 }
@@ -218,7 +218,6 @@ a {
   font-style: italic;
   line-height: 1.7;
   color: var(--wp--preset--color--c-ash);
-  max-width: 48ch;
   margin: 0;
   animation: heroFadeUp 2s cubic-bezier(0.22, 1, 0.36, 1) 1.3s both;
   text-shadow: 0 1px 6px rgba(0,0,0,0.9);
@@ -351,9 +350,6 @@ a {
   .hero-headline {
     max-width: 16ch;
   }
-  .hero-narrative {
-    max-width: 40ch;
-  }
 }
 
 @media (max-width: 768px) {
@@ -377,7 +373,6 @@ a {
 
   .hero-narrative {
     font-size: var(--wp--preset--font-size--base);
-    max-width: 32ch;
   }
 
   .hero-cta {
@@ -435,11 +430,10 @@ a {
   z-index: 1;
   pointer-events: none;
 }
-
 .world-inner {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
+      position: relative;
+      z-index: 2;
+      max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -471,7 +465,6 @@ a {
   font-weight: 300;
   font-style: italic;
   color: var(--wp--preset--color--c-ash);
-  max-width: 55ch;
   margin: var(--wp--preset--spacing--30) auto 0;
   line-height: 1.7;
 }
@@ -579,11 +572,10 @@ a {
     radial-gradient(ellipse 40% 50% at 20% 70%, rgba(255,105,212,0.03) 0%, transparent 70%);
   pointer-events: none;
 }
-
 .classes-inner {
-  position: relative;
-  z-index: 2;
-  max-width: 1200px;
+      position: relative;
+      z-index: 2;
+      max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -847,7 +839,6 @@ a {
   font-weight: 300;
   color: var(--wp--preset--color--c-ash);
   line-height: 1.8;
-  max-width: 60ch;
 }
 
 @media (max-width: 768px) {
@@ -945,7 +936,6 @@ a {
   font-style: italic;
   color: var(--wp--preset--color--c-ash);
   line-height: 1.8;
-  max-width: 50ch;
 }
 
 .cta-actions {
@@ -984,9 +974,8 @@ a {
   border-top: 1px solid rgba(123,47,190,0.1);
   padding: var(--wp--preset--spacing--50) var(--wp--preset--spacing--40);
 }
-
 .site-footer-inner {
-  max-width: 1200px;
+      max-width: 1280px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
