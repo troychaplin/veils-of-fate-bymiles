@@ -1,546 +1,545 @@
 {
-  "$schema": "https://schemas.wp.org/trunk/theme.json",
-  "version": 3,
-  "settings": {
-    "appearanceTools": true,
-    "useRootPaddingAwareAlignments": true,
-    "layout": {
-      "contentSize": "672px",
-      "wideSize": "1280px"
-    },
-    "color": {
-      "defaultDuotone": false,
-      "defaultGradients": false,
-      "defaultPalette": false,
-      "palette": [
-        {
-          "slug": "c-void",
-          "name": "C Void",
-          "color": "#07040e"
-        },
-        {
-          "slug": "c-stone",
-          "name": "C Stone",
-          "color": "#0e0a18"
-        },
-        {
-          "slug": "c-purple",
-          "name": "C Purple",
-          "color": "#7B2FBE"
-        },
-        {
-          "slug": "c-purple-deep",
-          "name": "C Purple Deep",
-          "color": "#4a1a75"
-        },
-        {
-          "slug": "c-gold",
-          "name": "C Gold",
-          "color": "#C9A84C"
-        },
-        {
-          "slug": "c-gold-dim",
-          "name": "C Gold Dim",
-          "color": "#9a7e38"
-        },
-        {
-          "slug": "c-magenta",
-          "name": "C Magenta",
-          "color": "#FF69D4"
-        },
-        {
-          "slug": "c-bone",
-          "name": "C Bone",
-          "color": "#d4c9b8"
-        },
-        {
-          "slug": "c-ash",
-          "name": "C Ash",
-          "color": "#8a7f72"
-        }
-      ],
-      "duotone": [
-        {
-          "slug": "primary-contrast",
-          "name": "Primary Contrast",
-          "colors": [
-            "#07040e",
-            "#d4c9b8"
-          ]
-        },
-        {
-          "slug": "accent-dark",
-          "name": "Accent Dark",
-          "colors": [
-            "#07040e",
-            "#9a7e38"
-          ]
-        },
-        {
-          "slug": "accent-light",
-          "name": "Accent Light",
-          "colors": [
-            "#9a7e38",
-            "#d4c9b8"
-          ]
-        }
-      ],
-      "gradients": [
-        {
-          "slug": "extracted-radial-1",
-          "name": "Radial Gradient 1",
-          "gradient": "radial-gradient(ellipse 60% 50% at 50% 40%, rgba(123,47,190,0.12) 0%, transparent 70%)"
-        },
-        {
-          "slug": "extracted-radial-2",
-          "name": "Radial Gradient 2",
-          "gradient": "radial-gradient(ellipse 40% 35% at 50% 45%, rgba(255,105,212,0.06) 0%, transparent 60%)"
-        },
-        {
-          "slug": "extracted-radial-3",
-          "name": "Radial Gradient 3",
-          "gradient": "radial-gradient(ellipse 50% 40% at 50% 35%, rgba(123,47,190,0.08) 0%, transparent 70%)"
-        },
-        {
-          "slug": "extracted-radial-4",
-          "name": "Radial Gradient 4",
-          "gradient": "radial-gradient(ellipse 70% 50% at 30% 40%, rgba(123,47,190,0.06) 0%, transparent 70%)"
-        },
-        {
-          "slug": "extracted-linear-5",
-          "name": "Linear Gradient 5",
-          "gradient": "linear-gradient(165deg, rgba(14,10,24,0.8) 0%, rgba(7,4,14,0.95) 100%)"
-        },
-        {
-          "slug": "extracted-radial-6",
-          "name": "Radial Gradient 6",
-          "gradient": "radial-gradient(ellipse 50% 40% at 70% 30%, rgba(123,47,190,0.05) 0%, transparent 70%)"
-        },
-        {
-          "slug": "extracted-radial-7",
-          "name": "Radial Gradient 7",
-          "gradient": "radial-gradient(ellipse 40% 50% at 20% 70%, rgba(255,105,212,0.03) 0%, transparent 70%)"
-        },
-        {
-          "slug": "extracted-linear-8",
-          "name": "Linear Gradient 8",
-          "gradient": "linear-gradient(to top, rgba(7,4,14,0.97) 0%, rgba(7,4,14,0.6) 40%, rgba(7,4,14,0.15) 100%)"
-        },
-        {
-          "slug": "extracted-linear-9",
-          "name": "Linear Gradient 9",
-          "gradient": "linear-gradient(to top, rgba(7,4,14,0.95) 0%, rgba(7,4,14,0.4) 40%, rgba(7,4,14,0.05) 100%)"
-        },
-        {
-          "slug": "extracted-radial-10",
-          "name": "Radial Gradient 10",
-          "gradient": "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(123,47,190,0.06) 0%, transparent 70%)"
-        },
-        {
-          "slug": "extracted-radial-11",
-          "name": "Radial Gradient 11",
-          "gradient": "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(123,47,190,0.15) 0%, transparent 60%)"
-        },
-        {
-          "slug": "extracted-radial-12",
-          "name": "Radial Gradient 12",
-          "gradient": "radial-gradient(ellipse 40% 40% at 50% 50%, rgba(255,105,212,0.06) 0%, transparent 50%)"
-        }
-      ]
-    },
-    "typography": {
-      "defaultFontSizes": false,
-      "fluid": true,
-      "fontFamilies": [
-        {
-          "fontFamily": "\"Cinzel Decorative\", sans-serif",
-          "name": "Cinzel Decorative",
-          "slug": "cinzel-decorative",
-          "fontFace": [
-            {
-              "fontFamily": "Cinzel Decorative",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/cinzel-decorative/400.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Cinzel Decorative",
-              "fontStyle": "normal",
-              "fontWeight": "700",
-              "src": [
-                "file:./assets/fonts/cinzel-decorative/700.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Cinzel Decorative",
-              "fontStyle": "normal",
-              "fontWeight": "900",
-              "src": [
-                "file:./assets/fonts/cinzel-decorative/900.woff2"
-              ]
-            }
-          ]
-        },
-        {
-          "fontFamily": "\"Cormorant Garamond\", sans-serif",
-          "name": "Cormorant Garamond",
-          "slug": "cormorant-garamond",
-          "fontFace": [
-            {
-              "fontFamily": "Cormorant Garamond",
-              "fontStyle": "italic",
-              "fontWeight": "300",
-              "src": [
-                "file:./assets/fonts/cormorant-garamond/300-italic.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Cormorant Garamond",
-              "fontStyle": "italic",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/cormorant-garamond/400-italic.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Cormorant Garamond",
-              "fontStyle": "normal",
-              "fontWeight": "300",
-              "src": [
-                "file:./assets/fonts/cormorant-garamond/300.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Cormorant Garamond",
-              "fontStyle": "normal",
-              "fontWeight": "400",
-              "src": [
-                "file:./assets/fonts/cormorant-garamond/400.woff2"
-              ]
-            },
-            {
-              "fontFamily": "Cormorant Garamond",
-              "fontStyle": "normal",
-              "fontWeight": "600",
-              "src": [
-                "file:./assets/fonts/cormorant-garamond/600.woff2"
-              ]
-            }
-          ]
-        }
-      ],
-      "fontSizes": [
-        {
-          "slug": "small",
-          "name": "Small",
-          "size": "0.8rem"
-        },
-        {
-          "slug": "base",
-          "name": "Base",
-          "size": "1rem"
-        },
-        {
-          "slug": "lg",
-          "name": "Lg",
-          "size": "1.15rem"
-        },
-        {
-          "slug": "xl",
-          "name": "Xl",
-          "size": "1.35rem"
-        },
-        {
-          "slug": "2xl",
-          "name": "2xl",
-          "size": "1.6rem"
-        },
-        {
-          "slug": "3xl",
-          "name": "3xl",
-          "size": "clamp(1.5rem, 2.8vw, 2.2rem)"
-        },
-        {
-          "slug": "huge",
-          "name": "Huge",
-          "size": "clamp(1.8rem, 4vw, 3rem)"
-        },
-        {
-          "slug": "display",
-          "name": "Display",
-          "size": "clamp(2.4rem, 6.5vw, 5.5rem)"
-        },
-        {
-          "slug": "whisper",
-          "name": "Whisper",
-          "size": "clamp(1rem, 1.8vw, 1.35rem)"
-        }
-      ]
-    },
-    "spacing": {
-      "blockGap": true,
-      "defaultSpacingSizes": false,
-      "spacingSizes": [
-        {
-          "slug": "20",
-          "name": "X-Small",
-          "size": "0.5rem"
-        },
-        {
-          "slug": "30",
-          "name": "Small",
-          "size": "1rem"
-        },
-        {
-          "slug": "40",
-          "name": "Medium",
-          "size": "2rem"
-        },
-        {
-          "slug": "50",
-          "name": "Large",
-          "size": "4rem"
-        },
-        {
-          "slug": "60",
-          "name": "X-Large",
-          "size": "6rem"
-        },
-        {
-          "slug": "65",
-          "name": "Spacing 65",
-          "size": "8rem"
-        }
-      ],
-      "units": [
-        "px",
-        "em",
-        "rem",
-        "%",
-        "vh",
-        "vw"
-      ]
-    },
-    "shadow": {
-      "defaultPresets": false,
-      "presets": [
-        {
-          "slug": "extracted-1",
-          "name": "Shadow 1",
-          "shadow": "0 0 12px rgba(201,168,76,0.5)"
-        },
-        {
-          "slug": "extracted-2",
-          "name": "Shadow 2",
-          "shadow": "0 0 40px rgba(201,168,76,0.3)"
-        },
-        {
-          "slug": "extracted-layered-3",
-          "name": "Layered Shadow 3",
-          "shadow": "0 0 50px rgba(201,168,76,0.5),\n    0 0 100px rgba(123,47,190,0.3)"
-        },
-        {
-          "slug": "extracted-inner-4",
-          "name": "Inner Shadow 4",
-          "shadow": "0 0 40px rgba(123,47,190,0.1),\n    inset 0 1px 0 rgba(123,47,190,0.1)"
-        }
-      ]
-    },
-    "custom": {
-      "lineHeight": {
-        "none": "1",
-        "tight": "1.1",
-        "snug": "1.25",
-        "normal": "1.5",
-        "relaxed": "1.625",
-        "loose": "2"
-      },
-      "fontWeight": {
-        "thin": "100",
-        "extralight": "200",
-        "light": "300",
-        "normal": "400",
-        "medium": "500",
-        "semibold": "600",
-        "bold": "700",
-        "extrabold": "800",
-        "black": "900"
-      }
-    }
-  },
-  "styles": {
-    "css": ".post-type-post.editor-styles-wrapper { padding: 2rem; }\n.post-type-post .editor-post-title__input { font-size: 2.5rem; }",
-    "spacing": {
-      "blockGap": "0",
-      "padding": {
-        "top": "0",
-        "right": "var:preset|spacing|50",
-        "bottom": "0",
-        "left": "var:preset|spacing|50"
-      }
-    },
-    "elements": {
-      "button": {
-        "border": {
-          "radius": "0",
-          "width": "0",
-          "style": "none"
-        },
-        "typography": {
-          "fontSize": "inherit",
-          "fontFamily": "inherit",
-          "lineHeight": "inherit"
-        },
-        ":hover": {
-          "color": {
-            "background": "inherit",
-            "text": "inherit"
-          }
-        },
-        ":focus": {
-          "outline": {
-            "width": "2px",
-            "style": "solid",
-            "offset": "2px"
-          }
-        }
-      },
-      "link": {
-        "color": {
-          "text": "inherit"
-        },
-        ":hover": {
-          "color": {
-            "text": "inherit"
-          },
-          "typography": {
-            "textDecoration": "underline"
-          }
-        },
-        ":focus": {
-          "outline": {
-            "width": "2px",
-            "style": "solid",
-            "offset": "2px"
-          }
-        }
-      },
-      "heading": {
-        "typography": {
-          "fontFamily": "inherit",
-          "lineHeight": "inherit"
-        },
-        "color": {
-          "text": "inherit"
-        }
-      }
-    },
-    "blocks": {
-      "core/list": {
-        "spacing": {
-          "padding": {
-            "left": "0"
-          },
-          "margin": {
-            "top": "0",
-            "bottom": "0"
-          }
-        },
-        "typography": {
-          "fontSize": "inherit",
-          "lineHeight": "inherit"
-        }
-      },
-      "core/separator": {
-        "border": {
-          "width": "0",
-          "style": "none"
-        },
-        "spacing": {
-          "margin": {
-            "top": "0",
-            "bottom": "0"
-          }
-        }
-      },
-      "core/code": {
-        "spacing": {
-          "padding": {
-            "top": "0",
-            "right": "0",
-            "bottom": "0",
-            "left": "0"
-          },
-          "margin": {
-            "top": "0",
-            "bottom": "0"
-          }
-        },
-        "typography": {
-          "fontSize": "inherit",
-          "fontFamily": "inherit"
-        },
-        "color": {
-          "background": "transparent"
-        }
-      },
-      "core/table": {
-        "spacing": {
-          "margin": {
-            "top": "0",
-            "bottom": "0"
-          }
-        }
-      },
-      "core/details": {
-        "spacing": {
-          "margin": {
-            "top": "0",
-            "bottom": "0"
-          }
-        }
-      },
-      "core/navigation": {
-        "typography": {
-          "fontSize": "inherit",
-          "fontFamily": "inherit",
-          "lineHeight": "inherit"
-        }
-      },
-      "core/navigation-link": {
-        "typography": {
-          "fontSize": "inherit",
-          "fontFamily": "inherit"
-        }
-      },
-      "core/quote": {
-        "border": {
-          "left": {
-            "width": "4px",
-            "style": "solid",
-            "color": "var(--wp--preset--color--c-void)"
-          }
-        },
-        "spacing": {
-          "padding": {
-            "left": "var(--wp--preset--spacing--40, 1.5rem)"
-          }
-        }
-      }
-    }
-  },
-  "templateParts": [
-    {
-      "name": "header",
-      "title": "Header",
-      "area": "header"
-    },
-    {
-      "name": "footer",
-      "title": "Footer",
-      "area": "footer"
-    }
-  ]
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": [
+						"#07040e",
+						"#d4c9b8"
+					],
+					"name": "Primary Contrast",
+					"slug": "primary-contrast"
+				},
+				{
+					"colors": [
+						"#07040e",
+						"#9a7e38"
+					],
+					"name": "Accent Dark",
+					"slug": "accent-dark"
+				},
+				{
+					"colors": [
+						"#9a7e38",
+						"#d4c9b8"
+					],
+					"name": "Accent Light",
+					"slug": "accent-light"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "radial-gradient(ellipse 60% 50% at 50% 40%, rgba(123,47,190,0.12) 0%, transparent 70%)",
+					"name": "Radial Gradient 1",
+					"slug": "extracted-radial-1"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 40% 35% at 50% 45%, rgba(255,105,212,0.06) 0%, transparent 60%)",
+					"name": "Radial Gradient 2",
+					"slug": "extracted-radial-2"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 50% 40% at 50% 35%, rgba(123,47,190,0.08) 0%, transparent 70%)",
+					"name": "Radial Gradient 3",
+					"slug": "extracted-radial-3"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 70% 50% at 30% 40%, rgba(123,47,190,0.06) 0%, transparent 70%)",
+					"name": "Radial Gradient 4",
+					"slug": "extracted-radial-4"
+				},
+				{
+					"gradient": "linear-gradient(165deg, rgba(14,10,24,0.8) 0%, rgba(7,4,14,0.95) 100%)",
+					"name": "Linear Gradient 5",
+					"slug": "extracted-linear-5"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 50% 40% at 70% 30%, rgba(123,47,190,0.05) 0%, transparent 70%)",
+					"name": "Radial Gradient 6",
+					"slug": "extracted-radial-6"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 40% 50% at 20% 70%, rgba(255,105,212,0.03) 0%, transparent 70%)",
+					"name": "Radial Gradient 7",
+					"slug": "extracted-radial-7"
+				},
+				{
+					"gradient": "linear-gradient(to top, rgba(7,4,14,0.97) 0%, rgba(7,4,14,0.6) 40%, rgba(7,4,14,0.15) 100%)",
+					"name": "Linear Gradient 8",
+					"slug": "extracted-linear-8"
+				},
+				{
+					"gradient": "linear-gradient(to top, rgba(7,4,14,0.95) 0%, rgba(7,4,14,0.4) 40%, rgba(7,4,14,0.05) 100%)",
+					"name": "Linear Gradient 9",
+					"slug": "extracted-linear-9"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(123,47,190,0.06) 0%, transparent 70%)",
+					"name": "Radial Gradient 10",
+					"slug": "extracted-radial-10"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 60% 50% at 50% 50%, rgba(123,47,190,0.15) 0%, transparent 60%)",
+					"name": "Radial Gradient 11",
+					"slug": "extracted-radial-11"
+				},
+				{
+					"gradient": "radial-gradient(ellipse 40% 40% at 50% 50%, rgba(255,105,212,0.06) 0%, transparent 50%)",
+					"name": "Radial Gradient 12",
+					"slug": "extracted-radial-12"
+				}
+			],
+			"palette": [
+				{
+					"color": "#07040e",
+					"name": "C Void",
+					"slug": "c-void"
+				},
+				{
+					"color": "#0e0a18",
+					"name": "C Stone",
+					"slug": "c-stone"
+				},
+				{
+					"color": "#7B2FBE",
+					"name": "C Purple",
+					"slug": "c-purple"
+				},
+				{
+					"color": "#4a1a75",
+					"name": "C Purple Deep",
+					"slug": "c-purple-deep"
+				},
+				{
+					"color": "#C9A84C",
+					"name": "C Gold",
+					"slug": "c-gold"
+				},
+				{
+					"color": "#9a7e38",
+					"name": "C Gold Dim",
+					"slug": "c-gold-dim"
+				},
+				{
+					"color": "#FF69D4",
+					"name": "C Magenta",
+					"slug": "c-magenta"
+				},
+				{
+					"color": "#d4c9b8",
+					"name": "C Bone",
+					"slug": "c-bone"
+				},
+				{
+					"color": "#8a7f72",
+					"name": "C Ash",
+					"slug": "c-ash"
+				}
+			]
+		},
+		"custom": {
+			"fontWeight": {
+				"black": "900",
+				"bold": "700",
+				"extrabold": "800",
+				"extralight": "200",
+				"light": "300",
+				"medium": "500",
+				"normal": "400",
+				"semibold": "600",
+				"thin": "100"
+			},
+			"lineHeight": {
+				"loose": "2",
+				"none": "1",
+				"normal": "1.5",
+				"relaxed": "1.625",
+				"snug": "1.25",
+				"tight": "1.1"
+			}
+		},
+		"layout": {
+			"contentSize": "672px",
+			"wideSize": "1280px"
+		},
+		"shadow": {
+			"defaultPresets": false,
+			"presets": [
+				{
+					"name": "Shadow 1",
+					"shadow": "0 0 12px rgba(201,168,76,0.5)",
+					"slug": "extracted-1"
+				},
+				{
+					"name": "Shadow 2",
+					"shadow": "0 0 40px rgba(201,168,76,0.3)",
+					"slug": "extracted-2"
+				},
+				{
+					"name": "Layered Shadow 3",
+					"shadow": "0 0 50px rgba(201,168,76,0.5),\n    0 0 100px rgba(123,47,190,0.3)",
+					"slug": "extracted-layered-3"
+				},
+				{
+					"name": "Inner Shadow 4",
+					"shadow": "0 0 40px rgba(123,47,190,0.1),\n    inset 0 1px 0 rgba(123,47,190,0.1)",
+					"slug": "extracted-inner-4"
+				}
+			]
+		},
+		"spacing": {
+			"defaultSpacingSizes": false,
+			"spacingSizes": [
+				{
+					"name": "X-Small",
+					"size": "0.5rem",
+					"slug": "20"
+				},
+				{
+					"name": "Small",
+					"size": "1rem",
+					"slug": "30"
+				},
+				{
+					"name": "Medium",
+					"size": "2rem",
+					"slug": "40"
+				},
+				{
+					"name": "Large",
+					"size": "4rem",
+					"slug": "50"
+				},
+				{
+					"name": "X-Large",
+					"size": "6rem",
+					"slug": "60"
+				},
+				{
+					"name": "Spacing 65",
+					"size": "8rem",
+					"slug": "65"
+				}
+			],
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"%",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Cinzel Decorative",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cinzel-decorative/400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cinzel Decorative",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/cinzel-decorative/700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cinzel Decorative",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/cinzel-decorative/900.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Cinzel Decorative\", sans-serif",
+					"name": "Cinzel Decorative",
+					"slug": "cinzel-decorative"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Cormorant Garamond",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/cormorant-garamond/600.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Cormorant Garamond\", sans-serif",
+					"name": "Cormorant Garamond",
+					"slug": "cormorant-garamond"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "0.8rem",
+					"slug": "small"
+				},
+				{
+					"name": "Base",
+					"size": "1rem",
+					"slug": "base"
+				},
+				{
+					"name": "Lg",
+					"size": "1.15rem",
+					"slug": "lg"
+				},
+				{
+					"name": "Xl",
+					"size": "1.35rem",
+					"slug": "xl"
+				},
+				{
+					"name": "2xl",
+					"size": "1.6rem",
+					"slug": "2xl"
+				},
+				{
+					"name": "3xl",
+					"size": "clamp(1.5rem, 2.8vw, 2.2rem)",
+					"slug": "3xl"
+				},
+				{
+					"name": "Huge",
+					"size": "clamp(1.8rem, 4vw, 3rem)",
+					"slug": "huge"
+				},
+				{
+					"name": "Display",
+					"size": "clamp(2.4rem, 6.5vw, 5.5rem)",
+					"slug": "display"
+				},
+				{
+					"name": "Whisper",
+					"size": "clamp(1rem, 1.8vw, 1.35rem)",
+					"slug": "whisper"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/code": {
+				"color": {
+					"background": "transparent"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					},
+					"padding": {
+						"bottom": "0",
+						"left": "0",
+						"right": "0",
+						"top": "0"
+					}
+				},
+				"typography": {
+					"fontFamily": "inherit",
+					"fontSize": "inherit"
+				}
+			},
+			"core/details": {
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				}
+			},
+			"core/list": {
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					},
+					"padding": {
+						"left": "0"
+					}
+				},
+				"typography": {
+					"fontSize": "inherit",
+					"lineHeight": "inherit"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "inherit",
+					"fontSize": "inherit",
+					"lineHeight": "inherit"
+				}
+			},
+			"core/navigation-link": {
+				"typography": {
+					"fontFamily": "inherit",
+					"fontSize": "inherit"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"left": {
+						"color": "var(--wp--preset--color--c-void)",
+						"style": "solid",
+						"width": "4px"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--40, 1.5rem)"
+					}
+				}
+			},
+			"core/separator": {
+				"border": {
+					"style": "none",
+					"width": "0"
+				},
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				}
+			},
+			"core/table": {
+				"spacing": {
+					"margin": {
+						"bottom": "0",
+						"top": "0"
+					}
+				}
+			}
+		},
+		"css": ".post-type-post.editor-styles-wrapper { padding: 2rem; }\n.post-type-post .editor-post-title__input { font-size: 2.5rem; }",
+		"elements": {
+			"button": {
+				":focus": {
+					"outline": {
+						"offset": "2px",
+						"style": "solid",
+						"width": "2px"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "inherit",
+						"text": "inherit"
+					}
+				},
+				"border": {
+					"radius": "0",
+					"style": "none",
+					"width": "0"
+				},
+				"typography": {
+					"fontFamily": "inherit",
+					"fontSize": "inherit",
+					"lineHeight": "inherit"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "inherit"
+				},
+				"typography": {
+					"fontFamily": "inherit",
+					"lineHeight": "inherit"
+				}
+			},
+			"link": {
+				":focus": {
+					"outline": {
+						"offset": "2px",
+						"style": "solid",
+						"width": "2px"
+					}
+				},
+				":hover": {
+					"color": {
+						"text": "inherit"
+					},
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
+				"color": {
+					"text": "inherit"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "0",
+			"padding": {
+				"bottom": "0",
+				"left": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--50)",
+				"top": "0"
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	]
 }

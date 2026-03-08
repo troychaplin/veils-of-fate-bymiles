@@ -1125,7 +1125,29 @@ a {
   pointer-events: none;
 }
 
-/* CTA final button variant — wrapper reset */
+/* Hero Login button — secondary ghost variant */
+    .wp-block-button.hero-cta.hero-cta-login .wp-block-button__link {
+      background: linear-gradient(135deg, rgba(201, 168, 76, 0.1) 0%, rgba(123, 47, 190, 0.06) 100%);
+      color: var(--wp--preset--color--c-gold);
+      box-shadow: none;
+    }
+
+    .wp-block-button.hero-cta.hero-cta-login .wp-block-button__link:hover {
+      background: linear-gradient(135deg, rgba(201, 168, 76, 0.22) 0%, rgba(123, 47, 190, 0.12) 100%);
+      box-shadow: 0 0 30px rgba(201, 168, 76, 0.2);
+    }
+
+    .wp-block-button.hero-cta.hero-cta-login .wp-block-button__link::before {
+      content: none;
+    }
+
+    .wp-block-button.hero-cta.hero-cta-login .hero-cta-glow {
+      background: linear-gradient(135deg, var(--wp--preset--color--c-gold-dim), var(--wp--preset--color--c-gold), var(--wp--preset--color--c-gold-dim));
+      opacity: 0.2;
+      animation: none;
+    }
+
+    /* CTA final button variant — wrapper reset */
 .wp-block-button.cta-final-btn {
   padding: 0 !important;
   background: none !important;
