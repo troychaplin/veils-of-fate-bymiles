@@ -321,48 +321,84 @@
 			],
 			"fontSizes": [
 				{
+					"fluid": {
+						"max": "0.8rem",
+						"min": "0.75rem"
+					},
 					"name": "Small",
 					"size": "0.8rem",
 					"slug": "small"
 				},
 				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
 					"name": "Base",
 					"size": "1rem",
 					"slug": "base"
 				},
 				{
+					"fluid": {
+						"max": "1.15rem",
+						"min": "1rem"
+					},
 					"name": "Lg",
 					"size": "1.15rem",
 					"slug": "lg"
 				},
 				{
+					"fluid": {
+						"max": "1.35rem",
+						"min": "1.125rem"
+					},
 					"name": "Xl",
 					"size": "1.35rem",
 					"slug": "xl"
 				},
 				{
+					"fluid": {
+						"max": "1.6rem",
+						"min": "1.325rem"
+					},
 					"name": "2xl",
 					"size": "1.6rem",
 					"slug": "2xl"
 				},
 				{
+					"fluid": {
+						"max": "2.2rem",
+						"min": "1.5rem"
+					},
 					"name": "3xl",
-					"size": "clamp(1.5rem, 2.8vw, 2.2rem)",
+					"size": "2.2rem",
 					"slug": "3xl"
 				},
 				{
+					"fluid": {
+						"max": "3rem",
+						"min": "1.8rem"
+					},
 					"name": "Huge",
-					"size": "clamp(1.8rem, 4vw, 3rem)",
+					"size": "3rem",
 					"slug": "huge"
 				},
 				{
+					"fluid": {
+						"max": "5.5rem",
+						"min": "2.4rem"
+					},
 					"name": "Display",
-					"size": "clamp(2.4rem, 6.5vw, 5.5rem)",
+					"size": "5.5rem",
 					"slug": "display"
 				},
 				{
+					"fluid": {
+						"max": "1.35rem",
+						"min": "1rem"
+					},
 					"name": "Whisper",
-					"size": "clamp(1rem, 1.8vw, 1.35rem)",
+					"size": "1.35rem",
 					"slug": "whisper"
 				}
 			]
