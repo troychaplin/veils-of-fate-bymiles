@@ -198,32 +198,32 @@
 			"spacingSizes": [
 				{
 					"name": "X-Small",
-					"size": "0.5rem",
+					"size": "min(0.5rem, 2vw)",
 					"slug": "20"
 				},
 				{
 					"name": "Small",
-					"size": "1rem",
+					"size": "min(1rem, 3vw)",
 					"slug": "30"
 				},
 				{
 					"name": "Medium",
-					"size": "2rem",
+					"size": "min(2rem, 5vw)",
 					"slug": "40"
 				},
 				{
 					"name": "Large",
-					"size": "4rem",
+					"size": "min(4rem, 10vw)",
 					"slug": "50"
 				},
 				{
 					"name": "X-Large",
-					"size": "6rem",
+					"size": "min(6rem, 12vw)",
 					"slug": "60"
 				},
 				{
 					"name": "Spacing 65",
-					"size": "8rem",
+					"size": "min(8rem, 16vw)",
 					"slug": "65"
 				}
 			],
