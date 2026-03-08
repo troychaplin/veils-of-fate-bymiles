@@ -100,7 +100,7 @@ a {
 }
 
 /* Noise texture overlay */
-.hero .hero-header::before {
+/* .hero .hero-header::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -109,7 +109,7 @@ a {
   background-size: 200px 200px;
   pointer-events: none;
   z-index: 1;
-}
+} */
 
 /* Ambient veil shimmer */
 .hero::after {
@@ -298,7 +298,7 @@ a {
   padding: var(--wp--preset--spacing--40);
   z-index: 2;
   animation: heroFadeUp 2s cubic-bezier(0.22, 1, 0.36, 1) 2.2s both;
-  gap: var(--wp--preset--spacing--50);
+  gap: var(--wp--preset--spacing--40);
 }
 
 .hero-footer-link {
