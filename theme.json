@@ -317,6 +317,45 @@
 					"fontFamily": "\"Cormorant Garamond\", sans-serif",
 					"name": "Cormorant Garamond",
 					"slug": "cormorant-garamond"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh7USSwaPGR_p.woff2"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI9w2_FQft1dw.woff2"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwaPGR_p.woff2"
+							]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"https://fonts.gstatic.com/s/lato/v24/S6u_w4BMUTPHjxsI5wq_FQft1dw.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Lato\", sans-serif",
+					"name": "Lato",
+					"slug": "lato"
 				}
 			],
 			"fontSizes": [
@@ -526,12 +565,42 @@
 					"lineHeight": "inherit"
 				}
 			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--display)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--huge)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--3xl)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--2xl)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xl)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xl)"
+				}
+			},
 			"heading": {
 				"color": {
 					"text": "inherit"
 				},
 				"typography": {
-					"fontFamily": "inherit",
+					"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
 					"lineHeight": "inherit"
 				}
 			},
@@ -564,6 +633,11 @@
 				"right": "var(--wp--preset--spacing--50)",
 				"top": "0"
 			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--lato)",
+			"fontSize": "var(--wp--preset--font-size--xl)",
+			"lineHeight": "1.5"
 		}
 	},
 	"templateParts": [

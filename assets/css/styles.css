@@ -551,8 +551,8 @@ a {
       box-shadow: 0 0 20px rgba(123,47,190,0.15);
     }
 
-    .pillar-title {
-  font-family: var(--font-display);
+.pillar-title {
+  font-family: var(--wp--preset--font-family--cormorant-garamond);
   font-size: var(--wp--preset--font-size--2xl);
   font-weight: 700;
   color: var(--wp--preset--color--c-gold);
@@ -564,7 +564,7 @@ a {
   font-size: var(--wp--preset--font-size--lg);
   font-weight: 300;
   color: var(--wp--preset--color--c-ash);
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 @media (max-width: 1024px) {
@@ -1260,11 +1260,11 @@ a {
 
 /* Margin parity — pillar-title */
 :root :where(.pillar-title) {
-  margin-bottom: var(--wp--preset--spacing--30);
+  margin-bottom: var(--wp--preset--spacing--20);
 }
 
 .editor-styles-wrapper .pillar-title {
-  margin-bottom: var(--wp--preset--spacing--30) !important;
+  margin-bottom: var(--wp--preset--spacing--20) !important;
 }
 
 /* Margin parity — section-tag */
