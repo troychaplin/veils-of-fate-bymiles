@@ -66,8 +66,8 @@ a {
   display: inline-block;
   font-family: var(--font-display);
   font-size: var(--wp--preset--font-size--small);
-  color: var(--wp--preset--color--c-purple);
-  letter-spacing: 0.3em;
+  color: #c4a0f0;
+      letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-bottom: var(--wp--preset--spacing--30);
 }
@@ -656,8 +656,8 @@ a {
   display: inline-block;
   font-family: var(--font-display);
   font-size: var(--wp--preset--font-size--small);
-  color: var(--wp--preset--color--c-purple);
-  letter-spacing: 0.2em;
+  color: #c4a0f0;
+      letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-bottom: var(--wp--preset--spacing--20);
 }
@@ -804,7 +804,7 @@ a {
   font-family: var(--font-display);
   font-size: var(--wp--preset--font-size--3xl);
   font-weight: 900;
-  color: var(--wp--preset--color--c-purple-deep);
+  color: var(--wp--preset--color--c-purple);
   line-height: 1;
   min-width: 60px;
   text-align: center;
@@ -813,7 +813,6 @@ a {
 }
 
 .feature-item:hover .feature-number {
-  color: var(--wp--preset--color--c-purple);
   text-shadow: 0 0 30px rgba(123,47,190,0.4);
 }
 
