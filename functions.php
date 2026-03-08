@@ -60,15 +60,6 @@ function miles_veils_of_fate_tales_of_eldermoor_fc13d6a3_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'miles_veils_of_fate_tales_of_eldermoor_fc13d6a3_enqueue_scripts' );
 
 /**
- * Remove title support from pages for cleaner editing experience.
- * The homepage content provides its own visual header.
- */
-function miles_veils_of_fate_tales_of_eldermoor_fc13d6a3_customize_pages() {
-    remove_post_type_support( 'page', 'title' );
-}
-add_action( 'init', 'miles_veils_of_fate_tales_of_eldermoor_fc13d6a3_customize_pages' );
-
-/**
  * Add JS class to html element for animation system.
  * Outputs early in head to prevent FOUC on animated elements.
  */
@@ -76,4 +67,15 @@ function miles_veils_of_fate_tales_of_eldermoor_fc13d6a3_add_js_class() {
     echo '<script>document.documentElement.classList.add("js");</script>';
 }
 add_action( 'wp_head', 'miles_veils_of_fate_tales_of_eldermoor_fc13d6a3_add_js_class', 1 );
+
+/**
+ * Register custom block patterns category
+ */
+function veils_register_pattern_categories() {
+    register_block_pattern_category(
+        'veils-patterns',
+        array( 'label' => __( 'Veils Patterns', 'veils' ) )
+    );
+}
+add_action( 'init', 'veils_register_pattern_categories' );
 
