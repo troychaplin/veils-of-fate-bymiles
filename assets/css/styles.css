@@ -41,11 +41,12 @@ a {
   opacity: 1;
   transform: translateY(0);
 }
-
 .js .animate-on-scroll:not(.is-visible) {
-  opacity: 0;
-  transform: translateY(30px);
-}
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+
 
 .js .animate-on-scroll {
   transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
@@ -976,11 +977,12 @@ a {
 .cta-actions {
   margin-top: var(--wp--preset--spacing--30);
 }
-
 .cta-final-btn {
-  font-size: var(--wp--preset--font-size--xl);
-  padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--60);
-}
+          /* base styles moved to .wp-block-button.cta-final-btn */
+        }
+.cta-final-btn:hover {
+          /* hover styles moved to .wp-block-button.cta-final-btn */
+        }
 
 .cta-subtext {
   font-size: var(--wp--preset--font-size--small);
@@ -1183,7 +1185,7 @@ a {
       animation: none;
     }
 
-    /* CTA final button variant — wrapper reset */
+    /* CTA Final Button — Redesigned */
 .wp-block-button.cta-final-btn {
   padding: 0 !important;
   background: none !important;
@@ -1193,10 +1195,50 @@ a {
   clip-path: none;
 }
 
-/* CTA final button variant — inner link overrides */
 .wp-block-button.cta-final-btn .wp-block-button__link {
-  font-size: var(--wp--preset--font-size--xl);
-  padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--60);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2.5vw, 1.35rem);
+  font-weight: 600;
+  color: #C9A84C;
+  background: linear-gradient(180deg, rgba(15, 8, 28, 0.85) 0%, rgba(8, 4, 18, 0.92) 100%);
+  padding: 20px 56px;
+  text-decoration: none;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  border: 1px solid rgba(201, 168, 76, 0.45);
+  border-radius: 2px;
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow: inset 0 1px 0 rgba(201, 168, 76, 0.1), 0 0 20px rgba(201, 168, 76, 0.06);
+  text-shadow: 0 0 24px rgba(201, 168, 76, 0.25);
+  clip-path: none;
+  line-height: 1.2;
+}
+
+.wp-block-button.cta-final-btn .wp-block-button__link:hover {
+color: #ffffff;
+      background: rgba(120, 80, 0, 0.6);
+  border-color: rgba(218, 185, 100, 0.7);
+  box-shadow: inset 0 0 30px rgba(201, 168, 76, 0.1), 0 0 25px rgba(201, 168, 76, 0.12), 0 0 60px rgba(201, 168, 76, 0.06);
+  text-shadow: 0 0 20px rgba(201, 168, 76, 0.3);
+}
+
+/* CTA final button — inner decorative frame */
+.wp-block-button.cta-final-btn .wp-block-button__link::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(201, 168, 76, 0.12);
+  border-radius: 1px;
+  pointer-events: none;
+  transition: border-color 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.wp-block-button.cta-final-btn .wp-block-button__link:hover::before {
+  border-color: rgba(218, 185, 100, 0.25);
 }
 
 /* Button alignment — center wp-block-buttons in centered contexts */
