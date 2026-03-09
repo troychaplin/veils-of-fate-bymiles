@@ -1,6 +1,15 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
 	"version": 3,
+	"customTemplates": [
+		{
+			"name": "single-vof_quests",
+			"postTypes": [
+				"vof_quests"
+			],
+			"title": "Single Quest"
+		}
+	],
 	"settings": {
 		"appearanceTools": true,
 		"color": {

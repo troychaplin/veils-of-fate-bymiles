@@ -19,7 +19,7 @@ html {
 
 body {
   /* font-family: var(--font-body); */
-  font-size: var(--wp--preset--font-size--base);
+  /* font-size: var(--wp--preset--font-size--base); */
   color: var(--wp--preset--color--c-bone);
   background-color: var(--wp--preset--color--c-void);
   line-height: 1.6;
@@ -297,6 +297,10 @@ a {
   z-index: 2;
   animation: heroFadeUp 2s cubic-bezier(0.22, 1, 0.36, 1) 2.2s both;
   gap: var(--wp--preset--spacing--40);
+}
+
+.no-animation {
+    animation: none !important;
 }
 
 .hero-footer-link {
@@ -2422,7 +2426,7 @@ header.wp-block-template-part:has([class*="header"][style*="position:sticky"]) {
 .single-post-content .wp-block-heading:where(h2) {
   font-family: var(--font-heading);
   color: var(--wp--preset--color--c-gold);
-  margin-top: var(--wp--preset--spacing--60);
+  margin-top: var(--wp--preset--spacing--40);
   text-shadow: 0 0 30px rgba(201, 168, 76, 0.15);
 }
 
