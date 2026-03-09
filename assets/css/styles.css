@@ -9,8 +9,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 
 html {
@@ -1977,9 +1977,9 @@ color: #ffffff;
 }
 
 /* Reset paragraph wrapper styles for inline content converted to wp:paragraph */
-:where(.wp-block-paragraph) {
+/* :where(.wp-block-paragraph) {
   margin: 0;
-}
+} */
 
 /* Reset WordPress button line-height to match original CSS */
 .wp-block-button__link {
