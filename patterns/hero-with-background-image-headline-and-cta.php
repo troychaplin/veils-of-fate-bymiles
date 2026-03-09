@@ -19,12 +19,12 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"level":1,"align":"wide","className":"has-text-align-center hero-headline","style":{"typography":{"fontFamily":"var(\u002d\u002dfont-display)","fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002ddisplay)","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
-<h1 class="wp-block-heading alignwide has-text-align-center hero-headline has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--font-display);font-size:var(--wp--preset--font-size--display)"><span>The Veil</span><span class="hero-headline-line2">Grows Thin</span></h1>
+<!-- wp:heading {"level":1,"align":"wide","className":"has-text-align-center hero-headline","style":{"typography":{"fontFamily":"var:preset|font-family|cinzel-decorative","fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002ddisplay)","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
+<h1 class="wp-block-heading alignwide has-text-align-center hero-headline has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--wp--preset--font-family--cinzel-decorative);font-size:var(--wp--preset--font-size--display)"><span>The Veil</span><span class="hero-headline-line2">Grows Thin</span></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"has-text-align-center hero-narrative","style":{"typography":{"textAlign":"center"},"color":{"text":"#ffffff"}},"fontSize":"2xl"} -->
-<p class="has-text-align-center hero-narrative has-text-color has-2-xl-font-size" style="color:#ffffff"><em>The heroes of Eldermoor were never what they seemed. The gem remembers what the histories forgot — and it chose you to learn the truth. Your choices will shape alliances, reveal betrayals, and determine whether a city built on lies can survive the light.</em></p>
+<!-- wp:paragraph {"className":"has-text-align-center hero-narrative","style":{"typography":{"textAlign":"center"}},"textColor":"c-white","fontSize":"2xl"} -->
+<p class="has-text-align-center hero-narrative has-text-color has-c-white-color has-2-xl-font-size"><em>The heroes of Eldermoor were never what they seemed. The gem remembers what the histories forgot — and it chose you to learn the truth. Your choices will shape alliances, reveal betrayals, and determine whether a city built on lies can survive the light.</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Hero CTA Area"},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->

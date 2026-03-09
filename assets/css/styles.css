@@ -1,7 +1,17 @@
 /* ===== ROOT VARIABLES ===== */
 :root {
-  --font-display: 'Cinzel Decorative', Georgia, serif;
-  --font-body: 'Cormorant Garamond', Georgia, serif;
+  /* Font aliases — resolve to theme.json font-family presets */
+  --font-display: var(--wp--preset--font-family--cinzel-decorative);
+  --font-body: var(--wp--preset--font-family--cormorant-garamond);
+
+  /* Semantic aliases for plugin/extension authors */
+  --theme-bg: var(--wp--preset--color--c-void);
+  --theme-bg-alt: var(--wp--preset--color--c-stone);
+  --theme-text: var(--wp--preset--color--c-bone);
+  --theme-text-muted: var(--wp--preset--color--c-ash);
+  --theme-accent: var(--wp--preset--color--c-gold);
+  --theme-interactive: var(--wp--preset--color--c-purple);
+  --theme-border: var(--wp--preset--color--c-purple-deep);
 }
 
 /* ===== RESET ===== */
@@ -22,7 +32,7 @@ body {
   /* font-size: var(--wp--preset--font-size--base); */
   color: var(--wp--preset--color--c-bone);
   background-color: var(--wp--preset--color--c-void);
-  line-height: 1.6;
+  /* line-height now set in theme.json (1.6) */
   -webkit-font-smoothing: antialiased;
 }
 
@@ -63,11 +73,21 @@ a {
 .js .animate-on-scroll:nth-child(5) { transition-delay: 0.48s; }
 
 /* ===== SHARED COMPONENTS ===== */
+
+/* Gradient text accent — gold-to-magenta for section title highlights */
+.title-accent {
+  color: transparent;
+  background: linear-gradient(135deg, var(--wp--preset--color--c-gold) 40%, var(--wp--preset--color--c-magenta) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 900;
+}
+
 .section-tag {
   display: inline-block;
   font-family: var(--font-display);
   font-size: var(--wp--preset--font-size--small);
-  color: #c4a0f0;
+  color: var(--wp--preset--color--c-lavender);
       letter-spacing: 0.3em;
   text-transform: uppercase;
   margin-bottom: var(--wp--preset--spacing--30);
@@ -416,6 +436,22 @@ a {
   }
 }
 
+/* ===== SECTION BACKGROUND PATTERN =====
+ * Sections alternate backgrounds for visual rhythm:
+ *   Hero     → c-void
+ *   World    → c-stone
+ *   Classes  → c-void
+ *   Features → c-stone
+ *   CTA      → c-void (full-bleed background image overrides)
+ *   Footer   → c-void
+ *
+ * Border opacity tiers:
+ *   0.15  — subtle (pillar borders)
+ *   0.2   — standard (card borders, class cards)
+ *   solid c-purple-deep — strong (post card borders, separators)
+ *   gold rgba(201,168,76,0.15) — header bottom border only
+ * ===== */
+
 /* :::SECTION:The World::: */
 .world {
   position: relative;
@@ -455,13 +491,7 @@ a {
   text-shadow: 0 0 40px rgba(201,168,76,0.2), 0 2px 4px rgba(0,0,0,0.6);
 }
 
-.world-title-accent {
-  color: transparent;
-  background: linear-gradient(135deg, var(--wp--preset--color--c-gold) 40%, var(--wp--preset--color--c-magenta) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-weight: 900;
-}
+/* .world-title-accent — consolidated into .title-accent */
 
 .world-intro {
   font-size: var(--wp--preset--font-size--xl);
@@ -634,13 +664,7 @@ a {
   text-shadow: 0 0 40px rgba(201,168,76,0.2), 0 2px 4px rgba(0,0,0,0.6);
 }
 
-.classes-title-accent {
-  color: transparent;
-  background: linear-gradient(135deg, var(--wp--preset--color--c-gold) 40%, var(--wp--preset--color--c-magenta) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-weight: 900;
-}
+/* .classes-title-accent — consolidated into .title-accent */
 
 .classes-grid {
   display: grid;
@@ -699,7 +723,7 @@ a {
   display: inline-block;
   font-family: var(--font-display);
   font-size: var(--wp--preset--font-size--small);
-  color: #c4a0f0;
+  color: var(--wp--preset--color--c-lavender);
       letter-spacing: 0.2em;
   text-transform: uppercase;
   margin-bottom: var(--wp--preset--spacing--20);
@@ -786,6 +810,7 @@ a {
   pointer-events: none;
 }
 
+/* Narrower than wideSize (1280px) — intentional for readability of list-style content */
 .features-inner {
   position: relative;
   z-index: 2;
@@ -807,13 +832,7 @@ a {
   text-shadow: 0 0 40px rgba(201,168,76,0.2), 0 2px 4px rgba(0,0,0,0.6);
 }
 
-.features-title-accent {
-  color: transparent;
-  background: linear-gradient(135deg, var(--wp--preset--color--c-gold) 40%, var(--wp--preset--color--c-magenta) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-weight: 900;
-}
+/* .features-title-accent — consolidated into .title-accent */
 
 .features-list {
   display: flex;
@@ -847,7 +866,7 @@ a {
   font-family: var(--font-display);
   font-size: var(--wp--preset--font-size--3xl);
   font-weight: 900;
-  color: #A060D6;
+  color: var(--wp--preset--color--c-purple-mid);
   line-height: 1;
   min-width: 60px;
   text-align: center;
@@ -2549,7 +2568,7 @@ header.wp-block-template-part:has([class*="header"][style*="position:sticky"]) {
 }
 
 .single-post-header .wp-block-post-terms a {
-  color: #c4a0f0;
+  color: var(--wp--preset--color--c-lavender);
 }
 
 /* Title — dramatic gold glow treatment */

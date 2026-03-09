@@ -149,6 +149,26 @@
 					"color": "#8a7f72",
 					"name": "C Ash",
 					"slug": "c-ash"
+				},
+				{
+					"color": "#ffffff",
+					"name": "C White",
+					"slug": "c-white"
+				},
+				{
+					"color": "#c4a0f0",
+					"name": "C Lavender",
+					"slug": "c-lavender"
+				},
+				{
+					"color": "#A060D6",
+					"name": "C Purple Mid",
+					"slug": "c-purple-mid"
+				},
+				{
+					"color": "#330756",
+					"name": "C Purple Dark",
+					"slug": "c-purple-dark"
 				}
 			]
 		},
@@ -170,7 +190,8 @@
 				"normal": "1.5",
 				"relaxed": "1.625",
 				"snug": "1.25",
-				"tight": "1.1"
+				"tight": "1.1",
+				"body": "1.7"
 			}
 		},
 		"layout": {
@@ -276,7 +297,7 @@
 							]
 						}
 					],
-					"fontFamily": "\"Cinzel Decorative\", sans-serif",
+					"fontFamily": "\"Cinzel Decorative\", Georgia, serif",
 					"name": "Cinzel Decorative",
 					"slug": "cinzel-decorative"
 				},
@@ -323,7 +344,7 @@
 							]
 						}
 					],
-					"fontFamily": "\"Cormorant Garamond\", sans-serif",
+					"fontFamily": "\"Cormorant Garamond\", Georgia, serif",
 					"name": "Cormorant Garamond",
 					"slug": "cormorant-garamond"
 				},
@@ -646,7 +667,7 @@
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--lato)",
 			"fontSize": "var(--wp--preset--font-size--xl)",
-			"lineHeight": "1.5"
+			"lineHeight": "1.6"
 		}
 	},
 	"templateParts": [
