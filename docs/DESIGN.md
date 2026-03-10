@@ -19,6 +19,10 @@ All colors are registered in `theme.json` and available as WordPress preset CSS 
 | C Magenta | `c-magenta` | `#FF69D4` | `var(--wp--preset--color--c-magenta)` | Gradient endpoints, bright accent |
 | C Bone | `c-bone` | `#d4c9b8` | `var(--wp--preset--color--c-bone)` | Body text, primary readable text |
 | C Ash | `c-ash` | `#8a7f72` | `var(--wp--preset--color--c-ash)` | Secondary text, muted content, metadata |
+| C White | `c-white` | `#ffffff` | `var(--wp--preset--color--c-white)` | CTA text, hero narrative, footer text |
+| C Lavender | `c-lavender` | `#c4a0f0` | `var(--wp--preset--color--c-lavender)` | Section tags, card role labels |
+| C Purple Mid | `c-purple-mid` | `#A060D6` | `var(--wp--preset--color--c-purple-mid)` | Feature numbers (Roman numerals) |
+| C Purple Dark | `c-purple-dark` | `#330756` | `var(--wp--preset--color--c-purple-dark)` | Navigation submenu border |
 
 ### Color Usage Guidelines
 
@@ -29,17 +33,15 @@ All colors are registered in `theme.json` and available as WordPress preset CSS 
 - **Interactive elements** use `c-purple` for hover states and active borders
 - **Gradient text** uses a gold-to-magenta gradient for accent headings (the "title accent" pattern)
 
-### Hardcoded Colors in Use (not tokenized)
+### Remaining Hardcoded Colors
 
-These colors appear in CSS and patterns but are not in the theme.json palette:
+These values appear in CSS/templates but are intentionally not tokenized (opacity variants):
 
-| Hex | Usage | Notes |
-|---|---|---|
-| `#c4a0f0` | Section tags, card role labels | Light purple, used for small uppercase labels |
-| `#A060D6` | Feature numbers (Roman numerals) | Medium purple accent |
-| `#ffffff` | CTA text, hero narrative, footer text | White, used where `c-bone` may be too muted |
-| `#330756` | Navigation submenu border | Dark purple variant |
-| `rgba(201,168,76,0.15)` | Header bottom border | Gold at 15% opacity |
+| Value | Usage |
+|---|---|
+| `rgba(201,168,76,0.15)` | Header bottom border (gold at 15% opacity) |
+| `rgba(123,47,190,0.2)` | Card borders (purple at 20% opacity) |
+| `rgba(123,47,190,0.15)` | Subtle pillar borders (purple at 15% opacity) |
 
 ---
 
@@ -51,13 +53,13 @@ Three font families form the typographic hierarchy. All are registered in `theme
 
 | Name | Slug | CSS Variable | Stack | Source | Usage |
 |---|---|---|---|---|---|
-| Cinzel Decorative | `cinzel-decorative` | `var(--wp--preset--font-family--cinzel-decorative)` | `"Cinzel Decorative", sans-serif` | Local (woff2) | Display headings, logos, CTAs, section tags |
-| Cormorant Garamond | `cormorant-garamond` | `var(--wp--preset--font-family--cormorant-garamond)` | `"Cormorant Garamond", sans-serif` | Local (woff2) | Headings (h1-h6 default), elegant body text |
+| Cinzel Decorative | `cinzel-decorative` | `var(--wp--preset--font-family--cinzel-decorative)` | `"Cinzel Decorative", Georgia, serif` | Local (woff2) | Display headings, logos, CTAs, section tags |
+| Cormorant Garamond | `cormorant-garamond` | `var(--wp--preset--font-family--cormorant-garamond)` | `"Cormorant Garamond", Georgia, serif` | Local (woff2) | Headings (h1-h6 default), elegant body text |
 | Lato | `lato` | `var(--wp--preset--font-family--lato)` | `"Lato", sans-serif` | Google Fonts | Body text (global default) |
 
-**Custom CSS variables** (defined in `styles.css`, not in `theme.json`):
-- `--font-display`: `'Cinzel Decorative', Georgia, serif` - Used in CSS for display/decorative text
-- `--font-body`: `'Cormorant Garamond', Georgia, serif` - Used in CSS for body-level overrides
+**CSS shorthand aliases** (defined in `styles.css :root`, resolve to theme.json presets):
+- `--font-display` → `var(--wp--preset--font-family--cinzel-decorative)`
+- `--font-body` → `var(--wp--preset--font-family--cormorant-garamond)`
 
 ### Font Weights Available
 
@@ -103,6 +105,7 @@ All sizes use WordPress fluid typography. Values scale between min and max based
 | snug | 1.25 | `var(--wp--custom--line-height--snug)` |
 | normal | 1.5 | `var(--wp--custom--line-height--normal)` |
 | relaxed | 1.625 | `var(--wp--custom--line-height--relaxed)` |
+| body | 1.7 | `var(--wp--custom--line-height--body)` |
 | loose | 2 | `var(--wp--custom--line-height--loose)` |
 
 ### Custom Font Weights (from theme.json `custom`)
@@ -348,7 +351,7 @@ Sections follow a consistent container pattern:
     .section-name-header (text-align: center, margin-bottom: spacing-60)
       .section-tag (uppercase, letter-spacing: 0.3em, Cinzel Decorative, font-size: small)
       .section-name-title (Cinzel Decorative, font-size: huge, gold, letter-spacing: 0.05em)
-      .section-name-title-accent (gradient text span)
+      .title-accent (gradient text span — shared class for gold-to-magenta effect)
       .world-intro (italic, font-weight: 300, ash color, font-size: xl)
     [content grid/list]
 ```
@@ -461,13 +464,13 @@ Images in the theme are consistently treated with:
 ## Navigation
 
 Header navigation uses:
-- Font: Cormorant Garamond (inherited), `lg` size
+- Font: Cinzel Decorative, `small` size
 - Text: `c-bone` color, uppercase, `letter-spacing: 0.1em`
 - Hover: `c-gold`
-- Submenu background: `#7B2FBE` (c-purple)
-- Priority Plus menu background: `#4a1a75` (c-purple-deep)
-- Submenu border: `#330756`
-- Items: White text on purple backgrounds
+- Submenu background: `c-purple` (`#7B2FBE`)
+- Priority Plus menu background: `c-purple-deep` (`#4a1a75`)
+- Submenu border: `c-purple-dark` (`#330756`)
+- Items: `c-white` text on purple backgrounds
 
 ---
 
@@ -494,9 +497,23 @@ Header navigation uses:
 
 | Variable | Value | Source |
 |---|---|---|
-| `--font-display` | `'Cinzel Decorative', Georgia, serif` | `styles.css :root` |
-| `--font-body` | `'Cormorant Garamond', Georgia, serif` | `styles.css :root` |
+| `--font-display` | Alias → `var(--wp--preset--font-family--cinzel-decorative)` | `styles.css :root` |
+| `--font-body` | Alias → `var(--wp--preset--font-family--cormorant-garamond)` | `styles.css :root` |
 | `--glow-x` / `--glow-y` | Dynamic (JS) | Card hover glow position |
+
+### Semantic CSS Aliases (for plugin authors)
+
+These stable aliases are defined in `styles.css :root` for plugin/extension integration:
+
+| Variable | Resolves To | Usage |
+|---|---|---|
+| `--theme-bg` | `var(--wp--preset--color--c-void)` | Primary page background |
+| `--theme-bg-alt` | `var(--wp--preset--color--c-stone)` | Alternating section background |
+| `--theme-text` | `var(--wp--preset--color--c-bone)` | Primary body text |
+| `--theme-text-muted` | `var(--wp--preset--color--c-ash)` | Secondary/muted text |
+| `--theme-accent` | `var(--wp--preset--color--c-gold)` | Headings, emphasis |
+| `--theme-interactive` | `var(--wp--preset--color--c-purple)` | Hover states, active elements |
+| `--theme-border` | `var(--wp--preset--color--c-purple-deep)` | Borders, separators |
 
 ---
 
@@ -528,15 +545,15 @@ Header navigation uses:
 
 ## Quick Reference: Plugin Adaptation Checklist
 
-When adapting a plugin to match this theme:
+When adapting a plugin to match this theme, use the semantic CSS aliases where possible for cleaner integration:
 
-1. **Backgrounds**: Use `c-void` or `c-stone` for containers
-2. **Text**: `c-bone` for body, `c-ash` for secondary, `c-gold` for headings/emphasis
-3. **Borders**: `1px solid` using `c-purple-deep` or `rgba(123,47,190,0.2)`
+1. **Backgrounds**: `var(--theme-bg)` or `var(--theme-bg-alt)` for containers
+2. **Text**: `var(--theme-text)` for body, `var(--theme-text-muted)` for secondary, `var(--theme-accent)` for headings
+3. **Borders**: `1px solid var(--theme-border)` or `rgba(123,47,190,0.2)` for subtle
 4. **Font for labels**: Cinzel Decorative, `small` size, uppercase, `letter-spacing: 0.2-0.3em`
 5. **Font for headings**: Cormorant Garamond, appropriate size token
 6. **Font for body**: Lato (inherits from global default)
-7. **Interactive states**: Purple accent on hover/focus, gold glow for emphasis
+7. **Interactive states**: `var(--theme-interactive)` on hover/focus, gold glow for emphasis
 8. **Cards**: Dark gradient background, purple border, gold title, ash description
 9. **Buttons**: Consider the hexagonal clip-path pattern or at minimum use the color scheme
 10. **Spacing**: Use theme spacing tokens (`20` through `65`)

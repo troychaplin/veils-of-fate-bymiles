@@ -13,12 +13,12 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"className":"has-text-align-center cta-headline animate-on-scroll","style":{"typography":{"fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
-<h2 class="wp-block-heading has-text-align-center cta-headline animate-on-scroll has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--font-display)">The Veil Will Not Wait</h2>
+<!-- wp:heading {"className":"has-text-align-center cta-headline animate-on-scroll","style":{"typography":{"fontFamily":"var:preset|font-family|cinzel-decorative","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
+<h2 class="wp-block-heading has-text-align-center cta-headline animate-on-scroll has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--wp--preset--font-family--cinzel-decorative)">The Veil Will Not Wait</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"has-text-align-center cta-text animate-on-scroll","style":{"typography":{"textAlign":"center"},"color":{"text":"#ffffff"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
-<p class="has-text-align-center cta-text animate-on-scroll has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:#ffffff">Eldermoor is dying. The Shadow Tide rises. Heroes are needed — not tomorrow, not someday. Now. Your character. Your choices. Your legend. It begins the moment you step through.</p>
+<!-- wp:paragraph {"className":"has-text-align-center cta-text animate-on-scroll","style":{"typography":{"textAlign":"center"}},"textColor":"c-white","fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
+<p class="has-text-align-center cta-text animate-on-scroll has-text-color has-c-white-color has-cormorant-garamond-font-family has-2-xl-font-size">Eldermoor is dying. The Shadow Tide rises. Heroes are needed — not tomorrow, not someday. Now. Your character. Your choices. Your legend. It begins the moment you step through.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"CTA Actions"},"className":"cta-actions animate-on-scroll","layout":{"type":"default"}} -->
@@ -29,8 +29,8 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph {"className":"has-text-align-center cta-subtext animate-on-scroll","style":{"typography":{"textAlign":"center"},"color":{"text":"#ffffff"}},"fontSize":"base","fontFamily":"cinzel-decorative"} -->
-<p class="has-text-align-center cta-subtext animate-on-scroll has-text-color has-cinzel-decorative-font-family has-base-font-size" style="color:#ffffff">Free to play. Browser-based. Your story awaits beyond the Veil.</p>
+<!-- wp:paragraph {"className":"has-text-align-center cta-subtext animate-on-scroll","style":{"typography":{"textAlign":"center"}},"textColor":"c-white","fontSize":"base","fontFamily":"cinzel-decorative"} -->
+<p class="has-text-align-center cta-subtext animate-on-scroll has-text-color has-c-white-color has-cinzel-decorative-font-family has-base-font-size">Free to play. Browser-based. Your story awaits beyond the Veil.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
