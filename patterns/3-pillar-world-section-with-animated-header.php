@@ -8,16 +8,16 @@
 <!-- wp:group {"tagName":"section","metadata":{"name":"World Section"},"align":"full","className":"world","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"},"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/world-veil.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull world has-background" id="world" style="background-color:var(--wp--preset--color--c-stone)"><!-- wp:group {"metadata":{"name":"World Inner"},"className":"world-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group world-inner"><!-- wp:group {"metadata":{"name":"World Header"},"className":"world-header animate-on-scroll","layout":{"type":"constrained"}} -->
-<div class="wp-block-group world-header animate-on-scroll"><!-- wp:paragraph {"className":"has-text-align-center section-tag","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall)","fontFamily":"var:preset|font-family|cinzel-decorative","textAlign":"center"}},"textColor":"c-lavender"} -->
-<p class="has-text-align-center section-tag has-text-color has-c-lavender-color">The Hidden Truth</p>
+<div class="wp-block-group world-header animate-on-scroll"><!-- wp:paragraph {"className":"has-text-align-center section-tag","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall)","fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"#c4a0f0"}}} -->
+<p class="has-text-align-center section-tag has-text-color" style="color:#c4a0f0;font-family:var(--font-display);font-size:var(--wp--preset--font-size--small)">The Hidden Truth</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"has-text-align-center world-title","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dhuge)","fontFamily":"var:preset|font-family|cinzel-decorative","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
-<h2 class="wp-block-heading has-text-align-center world-title has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--wp--preset--font-family--cinzel-decorative);font-size:var(--wp--preset--font-size--huge)">Eldermoor <span class="title-accent">Awaits</span></h2>
+<!-- wp:heading {"className":"has-text-align-center world-title","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dhuge)","fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
+<h2 class="wp-block-heading has-text-align-center world-title has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--font-display);font-size:var(--wp--preset--font-size--huge)">Eldermoor <span class="world-title-accent">Awaits</span></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"has-text-align-center world-intro","style":{"typography":{"textAlign":"center"}},"textColor":"c-white","fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
-<p class="has-text-align-center world-intro has-text-color has-c-white-color has-cormorant-garamond-font-family has-2-xl-font-size">Three hundred years ago, four founders built a city and placed a gem at its heart. The histories call them heroes. The gem knows better.</p>
+<!-- wp:paragraph {"className":"has-text-align-center world-intro","style":{"typography":{"textAlign":"center"},"color":{"text":"#ffffff"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
+<p class="has-text-align-center world-intro has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:#ffffff">Three hundred years ago, four founders built a city and placed a gem at its heart. The histories call them heroes. The gem knows better.</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -28,7 +28,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
-<h3 class="wp-block-heading pillar-title has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:var(--wp--preset--color--c-gold)"><strong>The Purple Gem</strong></h3>
+<h3 class="wp-block-heading pillar-title has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:var(--wp--preset--color--c-gold)"><strong>THE PURPLE GEM</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"pillar-text","textColor":"c-bone","fontSize":"base","fontFamily":"lato"} -->
@@ -42,7 +42,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
-<h3 class="wp-block-heading pillar-title has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:var(--wp--preset--color--c-gold)"><strong>The Founders' Lie</strong></h3>
+<h3 class="wp-block-heading pillar-title has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:var(--wp--preset--color--c-gold)"><strong>THE FOUNDERS' LIE</strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"pillar-text","textColor":"c-bone","fontSize":"base","fontFamily":"lato"} -->
@@ -56,7 +56,7 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
-<h3 class="wp-block-heading pillar-title has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:var(--wp--preset--color--c-gold)"><strong><strong><strong>Forge Your Fate</strong></strong></strong></h3>
+<h3 class="wp-block-heading pillar-title has-text-color has-cormorant-garamond-font-family has-2-xl-font-size" style="color:var(--wp--preset--color--c-gold)"><strong><strong><strong>FORGE YOUR FATE</strong></strong></strong></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"pillar-text","textColor":"c-bone","fontSize":"base","fontFamily":"lato"} -->
