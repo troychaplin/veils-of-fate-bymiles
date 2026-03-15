@@ -143,14 +143,16 @@ The color resolves to the same hex value but through disconnected tokens. The fo
 
 ---
 
-## Summary of Open Decisions
+## Resolved Decisions
 
-| # | Issue | Options |
+All 7 issues have been resolved. Changes applied in the founders CSS alignment pass.
+
+| # | Issue | Resolution |
 |---|---|---|
-| 1 | Scoped variables vs theme.json tokens | (a) Replace with `var(--wp--preset--*)` equivalents, or (b) keep aliases but point at presets |
-| 2 | `--c-void` discrepancy (`#07040e` vs `#0a0612`) | (a) Intentional per-page darkness — keep, or (b) align to theme.json value |
-| 3 | `--c-gold-dim` (`#9a7e38`) | (a) Promote to theme.json palette, or (b) leave as one-off CSS value |
-| 4 | Duplicate rule blocks (plain + `:root :where()`) | (a) Consolidate to `:root :where()` only, or (b) keep both |
-| 5 | Scroll animation duplication | (a) Remove founders-scoped copy and rely on global, or (b) keep scoped |
-| 6 | `.founders-hero-tag` vs `.section-tag` | (a) Unify under `.section-tag` base class, or (b) keep distinct |
-| 7 | Font size `3xl` discrepancy | (a) Use theme.json preset, or (b) keep tighter founders range |
+| 1 | Scoped variables vs theme.json tokens | **Replaced inline** — all `var(--c-*)`, `var(--space-*)`, `var(--font-size-*)`, `var(--font-lato)` swapped to `var(--wp--preset--*)` equivalents. `var(--font-display)` and `var(--font-body)` left as-is (`:root` aliases). |
+| 2 | `--c-void` discrepancy | **Aligned to `#0a0612`** — theme.json updated. Treated as drift. |
+| 3 | `--c-gold-dim` (`#9a7e38`) | **Promoted to theme.json** — added as `c-gold-dim` palette token. |
+| 4 | Duplicate rule blocks | **Consolidated to `:root :where()` + editor overrides** — plain selector block (~230 lines) removed. |
+| 5 | Scroll animation duplication | **Removed** — founders-scoped copies deleted; global `.animate-on-scroll` rules cascade. Custom keyframe animations kept. |
+| 6 | `.founders-hero-tag` vs `.section-tag` | **Unified** — removed font-family and letter-spacing overrides from `.founders-hero-tag`. Now inherits `.section-tag` base styling. |
+| 7 | Font size `3xl` discrepancy | **Aligned to theme.json preset** — `var(--wp--preset--font-size--3xl)` used instead of custom clamp. |

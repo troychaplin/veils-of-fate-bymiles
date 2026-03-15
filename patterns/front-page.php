@@ -30,6 +30,18 @@
 <!-- wp:group {"metadata":{"name":"Hero CTA Area"},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hero-cta-area"><!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"hero-cta"} -->
+<div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="/the-founders">the Founders</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"hero-cta hero-cta-login"} -->
+<div class="wp-block-button hero-cta hero-cta-login"><a class="wp-block-button__link wp-element-button" href="/about-veils-of-fate">About Veils</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Hero CTA Area","blockVisibility":false},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide hero-cta-area"><!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"hero-cta"} -->
 <div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="/quest/the-fading-light/"><span class="hero-cta-glow"></span>Enter the Veil</a></div>
 <!-- /wp:button -->
 
@@ -57,4 +69,4 @@
 
 <!-- wp:post-content {"align":"full","layout":{"type":"constrained"}} /-->
 
-<!-- wp:template-part {"slug":"footer-pages","area":"uncategorized"} /-->
+<!-- wp:template-part {"slug":"footer-homepage","area":"uncategorized"} /-->

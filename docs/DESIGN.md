@@ -10,7 +10,7 @@ All colors are registered in `theme.json` and available as WordPress preset CSS 
 
 | Token | Slug | Hex | CSS Variable | Usage |
 |---|---|---|---|---|
-| C Void | `c-void` | `#07040e` | `var(--wp--preset--color--c-void)` | Primary background, deepest black |
+| C Void | `c-void` | `#0a0612` | `var(--wp--preset--color--c-void)` | Primary background, deepest black |
 | C Stone | `c-stone` | `#0e0a18` | `var(--wp--preset--color--c-stone)` | Alternating section backgrounds |
 | C Purple | `c-purple` | `#7B2FBE` | `var(--wp--preset--color--c-purple)` | Primary accent, interactive states |
 | C Purple Deep | `c-purple-deep` | `#4a1a75` | `var(--wp--preset--color--c-purple-deep)` | Borders, separators, subtle accents |
