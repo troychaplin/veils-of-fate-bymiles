@@ -5,7 +5,7 @@
  * Categories: veils-layouts
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Founders Page"},"align":"full","className":"founders-page","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"About Page"},"align":"full","className":"founders-page","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull founders-page"><!-- wp:group {"tagName":"section","metadata":{"name":"Founders Hero"},"className":"founders-hero","style":{"color":{"background":"#0a0612","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group founders-hero has-text-color has-background" style="color:var(--wp--preset--color--c-bone);background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Founders Hero Content"},"align":"wide","className":"founders-hero-content","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide founders-hero-content"><!-- wp:paragraph {"align":"center","className":"founders-hero-tag","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-lavender)"},"typography":{"fontFamily":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-family\u002d\u002dcormorant-garamond)"}}} -->
@@ -29,7 +29,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Founders Narrative Section"},"align":"full","className":"founders-narrative","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"About the Game"},"align":"full","className":"founders-narrative","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull founders-narrative has-background" style="background-color:var(--wp--preset--color--c-stone)"><!-- wp:group {"metadata":{"name":"Founders Narrative Inner"},"className":"founders-narrative-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group founders-narrative-inner"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|50"}}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
@@ -67,7 +67,7 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Founders Bios","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-left"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Choices Matter","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-left"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull founders-bios"><!-- wp:group {"tagName":"section","metadata":{"name":"Founder Seraphine Section"},"className":"founder-section founder-section\u002d\u002dvoid founder-seraphine","style":{"color":{"background":"#0a0612"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group founder-section founder-section--void founder-seraphine has-background" style="background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Seraphine Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-right","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-inner founder-inner--img-right"><!-- wp:group {"metadata":{"name":"Seraphine Text"},"className":"founder-text","layout":{"type":"default"}} -->
@@ -265,7 +265,7 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Founders Bios","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-right"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Game Features","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-right"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull founders-bios"><!-- wp:group {"tagName":"section","metadata":{"name":"Founder Aldric Section"},"className":"founder-section founder-section\u002d\u002dstone founder-aldric","style":{"color":{"background":"#0e0a18"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group founder-section founder-section--stone founder-aldric has-background" style="background-color:#0e0a18"><!-- wp:group {"metadata":{"name":"Aldric Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-left","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-inner founder-inner--img-left"><!-- wp:group {"metadata":{"name":"Aldric Text"},"className":"founder-text","layout":{"type":"default"}} -->
