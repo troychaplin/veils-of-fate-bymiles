@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: front-page
- * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/front-page
+ * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/template-front-page
  * Inserter: no
  */
 ?>

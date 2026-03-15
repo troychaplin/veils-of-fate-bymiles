@@ -5,7 +5,7 @@
  * Categories: veils-patterns
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"World Section"},"align":"full","className":"world","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"},"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/world-veil.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"World Section"},"align":"full","className":"world","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"},"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/world-veil.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull world has-background" id="world" style="background-color:var(--wp--preset--color--c-stone)"><!-- wp:group {"metadata":{"name":"World Inner"},"className":"world-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group world-inner"><!-- wp:group {"metadata":{"name":"World Header"},"className":"world-header animate-on-scroll","layout":{"type":"constrained"}} -->
 <div class="wp-block-group world-header animate-on-scroll"><!-- wp:paragraph {"className":"has-text-align-center section-tag","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall)","fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"#c4a0f0"}}} -->
@@ -24,7 +24,7 @@
 <!-- wp:group {"metadata":{"name":"World Pillars"},"align":"wide","className":"world-pillars","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide world-pillars"><!-- wp:group {"tagName":"article","metadata":{"name":"Pillar - The Thinning Veil"},"className":"world-pillar animate-on-scroll","layout":{"type":"default"}} -->
 <article class="wp-block-group world-pillar animate-on-scroll"><!-- wp:image {"id":260,"sizeSlug":"medium","linkDestination":"none","className":"pillar-image"} -->
-<figure class="wp-block-image size-medium pillar-image"><img src="http://localhost:8895/wp-content/uploads/2026/03/act-3-quest-5-epilogue-b-cold-gem-672x351.jpg" alt="Eldermoor has rebuilt but the Purple Gem's light is cold and uninviting, citizens walking past with averted eyes, the founders' statues standing untouched but unvisited." class="wp-image-260"/></figure>
+<figure class="wp-block-image size-medium pillar-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pillars-cold-gem.jpg" alt="Eldermoor has rebuilt but the Purple Gem's light is cold and uninviting, citizens walking past with averted eyes, the founders' statues standing untouched but unvisited." class="wp-image-260"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
@@ -38,7 +38,7 @@
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Pillar - The Five Dominions"},"className":"world-pillar animate-on-scroll","layout":{"type":"default"}} -->
 <article class="wp-block-group world-pillar animate-on-scroll"><!-- wp:image {"id":42,"sizeSlug":"medium","linkDestination":"none","className":"pillar-image"} -->
-<figure class="wp-block-image size-medium pillar-image"><img src="http://localhost:8895/wp-content/uploads/2026/03/act-0-quest-1-scene-1-founding-celebration-672x375.jpg" alt="Four founders gather around a glowing purple gem in a lantern-lit medieval town square during a grand celebration." class="wp-image-42"/></figure>
+<figure class="wp-block-image size-medium pillar-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pillars-founding-celebration.jpg" alt="Four founders gather around a glowing purple gem in a lantern-lit medieval town square during a grand celebration." class="wp-image-42"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
@@ -52,7 +52,7 @@
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Pillar - The Shadow Tide"},"className":"world-pillar animate-on-scroll","layout":{"type":"default"}} -->
 <article class="wp-block-group world-pillar animate-on-scroll"><!-- wp:image {"id":315,"sizeSlug":"medium","className":"pillar-image"} -->
-<figure class="wp-block-image size-medium pillar-image"><img src="http://localhost:8895/wp-content/uploads/2026/03/forge-your-fate-crossroads.jpg" alt="Forge Your Fate — a dramatic crossroads with two diverging paths lit by different ethereal lights" class="wp-image-315"/></figure>
+<figure class="wp-block-image size-medium pillar-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pillars-forge-your-fate.jpg" alt="Forge Your Fate — a dramatic crossroads with two diverging paths lit by different ethereal lights" class="wp-image-315"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->

@@ -5,7 +5,7 @@
  * Categories: veils-patterns
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"CTA Section","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/full-width-cta-section-with-animated-elements"},"align":"full","className":"cta-section","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/cta-rift.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"},"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-void)"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"CTA Section","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/full-width-cta-section-with-animated-elements"},"align":"full","className":"cta-section","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/cta-rift.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"},"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-void)"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull cta-section has-background" id="enter" style="background-color:var(--wp--preset--color--c-void)"><!-- wp:group {"metadata":{"name":"CTA Inner"},"className":"cta-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group cta-inner"><!-- wp:group {"metadata":{"name":"CTA Ornament"},"className":"cta-ornament animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group cta-ornament animate-on-scroll"><!-- wp:group {"metadata":{"name":"CTA Ornament Diamond [Decorative]"},"className":"cta-ornament-diamond miles-editor-hidden"} -->

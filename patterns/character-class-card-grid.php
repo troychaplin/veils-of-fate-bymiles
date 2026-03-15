@@ -23,7 +23,7 @@
 
 <!-- wp:group {"metadata":{"name":"Classes Grid"},"className":"classes-grid","layout":{"type":"default"}} -->
 <div class="wp-block-group classes-grid"><!-- wp:group {"tagName":"article","metadata":{"name":"Veilweaver Card"},"className":"class-card class-card\u002d\u002dfeatured animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card class-card--featured animate-on-scroll"><!-- wp:group {"metadata":{"name":"Veilweaver Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-veilweaver.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card class-card--featured animate-on-scroll"><!-- wp:group {"metadata":{"name":"Veilweaver Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-necromancer.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Veilweaver Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -41,7 +41,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Shadowblade Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Shadowblade Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-ranger.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Shadowblade Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-ranger.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Shadowblade Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -59,7 +59,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Ironwarden Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Ironwarden Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/paladin-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Ironwarden Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-paladin.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Ironwarden Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -77,8 +77,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Bard Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Bard Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/bard-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Bard Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-bard.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Bard Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
 
@@ -95,7 +95,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Doomcaller Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/dark-mage-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-dark-mage.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -113,7 +113,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Doomcaller Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-warrior.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-warrior.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -131,7 +131,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Rogue Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Rogue Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/rogue-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Rogue Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-rogue.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -149,8 +149,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Cleric Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Cleric Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/cleric-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Cleric Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-cleric.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Cleric Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
 
