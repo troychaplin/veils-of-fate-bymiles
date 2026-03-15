@@ -76,6 +76,10 @@ function veils_register_pattern_categories() {
         'veils-patterns',
         array( 'label' => __( 'Veils Patterns', 'veils' ) )
     );
+    register_block_pattern_category(
+        'veils-layouts',
+        array( 'label' => __( 'Veils Layouts', 'veils' ) )
+    );
 }
 add_action( 'init', 'veils_register_pattern_categories' );
 

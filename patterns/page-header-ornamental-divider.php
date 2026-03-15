@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Dark Fantasy Hero with Centered Typography & Ornamental Divider
- * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/dark-fantasy-hero-with-centered-typography-ornamental-divider
- * Categories: 
+ * Title: Page Header & Ornamental Divider
+ * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/page-header-ornamental-divider
+ * Categories: veils-patterns
  */
 ?>
 <!-- wp:group {"align":"full","metadata":{"name":"Founders Page"},"className":"founders-page","layout":{"type":"default"}} -->
