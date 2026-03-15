@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Hero with Background Image, Headline and CTA
+ * Title: Homepage Hero with Animation
  * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/hero-with-background-image-headline-and-cta
  * Categories: veils-patterns
  */
 ?>
 <!-- wp:group {"tagName":"section","metadata":{"name":"Hero Section"},"align":"full","className":"hero","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/hero-portal.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"},"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-void)","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hero has-text-color has-background" style="color:var(--wp--preset--color--c-bone);background-color:var(--wp--preset--color--c-void)"><!-- wp:group {"metadata":{"name":"Hero Header"},"align":"wide","className":"hero-header","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide hero-header"><!-- wp:image {"id":274,"width":"140px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8895/wp-content/uploads/2026/03/veils-of-fate-logo.png" alt="Veils of Fate Logo" class="wp-image-274" style="width:140px"/></figure>
+<div class="wp-block-group alignwide hero-header"><!-- wp:image {"width":"140px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="http://localhost:8895/wp-content/themes/miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/assets/images/veils-of-fate-logo.png" alt="Veils of Fate Logo" style="width:140px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
@@ -19,15 +19,27 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:heading {"level":1,"align":"wide","className":"has-text-align-center hero-headline","style":{"typography":{"fontFamily":"var:preset|font-family|cinzel-decorative","fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002ddisplay)","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
-<h1 class="wp-block-heading alignwide has-text-align-center hero-headline has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--wp--preset--font-family--cinzel-decorative);font-size:var(--wp--preset--font-size--display)"><span>The Veil</span><span class="hero-headline-line2">Grows Thin</span></h1>
+<!-- wp:heading {"level":1,"align":"wide","className":"has-text-align-center hero-headline","style":{"typography":{"fontFamily":"var(\u002d\u002dfont-display)","fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002ddisplay)","textAlign":"center"},"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}}} -->
+<h1 class="wp-block-heading alignwide has-text-align-center hero-headline has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--font-display);font-size:var(--wp--preset--font-size--display)"><span>The Veil</span><span class="hero-headline-line2">Grows Thin</span></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"has-text-align-center hero-narrative","style":{"typography":{"textAlign":"center"}},"textColor":"c-white","fontSize":"2xl"} -->
-<p class="has-text-align-center hero-narrative has-text-color has-c-white-color has-2-xl-font-size"><em>The heroes of Eldermoor were never what they seemed. The gem remembers what the histories forgot — and it chose you to learn the truth. Your choices will shape alliances, reveal betrayals, and determine whether a city built on lies can survive the light.</em></p>
+<!-- wp:paragraph {"className":"has-text-align-center hero-narrative","style":{"typography":{"textAlign":"center"},"color":{"text":"#ffffff"}},"fontSize":"2xl"} -->
+<p class="has-text-align-center hero-narrative has-text-color has-2-xl-font-size" style="color:#ffffff"><em>The heroes of Eldermoor were never what they seemed. The gem remembers what the histories forgot — and it chose you to learn the truth. Your choices will shape alliances, reveal betrayals, and determine whether a city built on lies can survive the light.</em></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Hero CTA Area"},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide hero-cta-area"><!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"className":"hero-cta"} -->
+<div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="/the-founders">the Founders</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"className":"hero-cta hero-cta-login"} -->
+<div class="wp-block-button hero-cta hero-cta-login"><a class="wp-block-button__link wp-element-button" href="/about-veils-of-fate">About Veils</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"metadata":{"name":"Hero CTA Area","blockVisibility":false},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hero-cta-area"><!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"hero-cta"} -->
 <div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="/quest/the-fading-light/"><span class="hero-cta-glow"></span>Enter the Veil</a></div>
@@ -45,17 +57,9 @@
 <p class="has-text-align-center hero-footer-link-wrapper"><a href="https://wordpress.org/" class="hero-footer-link">Powered by WordPress</a></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"metadata":{"name":"Hero Footer Sep 1 [Decorative]"},"className":"hero-footer-sep miles-editor-hidden"} -->
-<div class="wp-block-group hero-footer-sep miles-editor-hidden"></div>
-<!-- /wp:group -->
-
 <!-- wp:paragraph {"align":"center","className":"hero-footer-link-wrapper"} -->
 <p class="has-text-align-center hero-footer-link-wrapper"><a href="https://kinsta.com/" class="hero-footer-link">Hosted by Kinsta</a></p>
 <!-- /wp:paragraph -->
-
-<!-- wp:group {"metadata":{"name":"Hero Footer Sep 2 [Decorative]"},"className":"hero-footer-sep miles-editor-hidden"} -->
-<div class="wp-block-group hero-footer-sep miles-editor-hidden"></div>
-<!-- /wp:group -->
 
 <!-- wp:paragraph {"align":"center","className":"hero-footer-link-wrapper"} -->
 <p class="has-text-align-center hero-footer-link-wrapper"><a href="https://bymiles.ai/" class="hero-footer-link">Designed with Miles</a></p>

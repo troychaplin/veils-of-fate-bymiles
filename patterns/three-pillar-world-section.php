@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: 3-Pillar World Section with Animated Header
+ * Title: Three Pillar World Section
  * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/3-pillar-world-section-with-animated-header
  * Categories: veils-patterns
  */

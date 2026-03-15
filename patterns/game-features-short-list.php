@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: 4-Feature List with Numbered Items and Animations
+ * Title: Game Features Short List
  * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/4-feature-list-with-numbered-items-and-animations
  * Categories: veils-patterns
  */

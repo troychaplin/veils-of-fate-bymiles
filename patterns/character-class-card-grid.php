@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: 4-Class Card Grid with Featured Item
+ * Title: Character Class Card Grid
  * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/4-class-card-grid-with-featured-item
  * Categories: veils-patterns
  */
