@@ -5,19 +5,19 @@
  * Categories: veils-layouts
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Founders Page"},"align":"full","className":"founders-page","layout":{"type":"default"}} -->
-<div class="wp-block-group alignfull founders-page"><!-- wp:group {"tagName":"section","metadata":{"name":"Founders Hero"},"className":"founders-hero","style":{"color":{"background":"#0a0612","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group founders-hero has-text-color has-background" style="color:var(--wp--preset--color--c-bone);background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Founders Hero Content"},"align":"wide","className":"founders-hero-content","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide founders-hero-content"><!-- wp:paragraph {"align":"center","className":"founders-hero-tag","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-lavender)"},"typography":{"fontFamily":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-family\u002d\u002dcormorant-garamond)"}}} -->
-<p class="has-text-align-center founders-hero-tag has-text-color" style="color:var(--wp--preset--color--c-lavender);font-family:var(--wp--preset--font-family--cormorant-garamond)">The Founders of Eldermoor</p>
+<!-- wp:group {"metadata":{"name":"Founders Page","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/header-ornamental-divider"},"align":"full","className":"founders-page","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull founders-page"><!-- wp:group {"tagName":"section","metadata":{"name":"Founders Hero"},"className":"founders-hero","style":{"color":{"background":"#0a0612","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"default"}} -->
+<section class="wp-block-group founders-hero has-text-color has-background" style="color:var(--wp--preset--color--c-bone);background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Founders Hero Content"},"className":"founders-hero-content","layout":{"type":"default"}} -->
+<div class="wp-block-group founders-hero-content"><!-- wp:paragraph {"align":"center","className":"founders-hero-tag","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-lavender)"},"typography":{"fontFamily":"var(\u002d\u002dfont-body)"}}} -->
+<p class="has-text-align-center founders-hero-tag has-text-color" style="color:var(--wp--preset--color--c-lavender);font-family:var(--font-body)">The Founders of Eldermoor</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","className":"founders-hero-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"},"typography":{"fontFamily":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-family\u002d\u002dcinzel-decorative)"}}} -->
-<h1 class="wp-block-heading alignwide has-text-align-center founders-hero-title has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--wp--preset--font-family--cinzel-decorative)">The Founders</h1>
+<!-- wp:heading {"textAlign":"center","level":1,"className":"wp-block-heading founders-hero-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"},"typography":{"fontFamily":"var(\u002d\u002dfont-display)"}}} -->
+<h1 class="wp-block-heading has-text-align-center founders-hero-title has-text-color" style="color:var(--wp--preset--color--c-gold);font-family:var(--font-display)">The Founders</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"className":"has-text-align-center world-intro","style":{"typography":{"textAlign":"center"},"color":{"text":"#ffffff"}},"fontSize":"xl","fontFamily":"cormorant-garamond"} -->
-<p class="has-text-align-center world-intro has-text-color has-cormorant-garamond-font-family has-xl-font-size" style="color:#ffffff">Four souls bound by ancient power. Their covenant forged Eldermoor — and sealed its doom.</p>
+<!-- wp:paragraph {"align":"center","className":"founders-hero-subtitle","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-ash)"},"typography":{"fontFamily":"var(\u002d\u002dfont-body)"}}} -->
+<p class="has-text-align-center founders-hero-subtitle has-text-color" style="color:var(--wp--preset--color--c-ash);font-family:var(--font-body)">Four souls bound by ancient power. Their covenant forged Eldermoor — and sealed its doom.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"metadata":{"name":"Founders Hero Divider"},"className":"founders-hero-divider","layout":{"type":"default"}} -->
@@ -74,6 +74,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Founders Bios"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull founders-bios"><!-- wp:group {"metadata":{"name":"Founders Bios","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-left"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
 <div class="wp-block-group alignfull founders-bios"><!-- wp:group {"tagName":"section","metadata":{"name":"Founder Seraphine Section"},"className":"founder-section founder-section\u002d\u002dvoid founder-seraphine","style":{"color":{"background":"#0a0612"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group founder-section founder-section--void founder-seraphine has-background" style="background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Seraphine Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-right","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-inner founder-inner--img-right"><!-- wp:group {"metadata":{"name":"Seraphine Text"},"className":"founder-text","layout":{"type":"default"}} -->
@@ -92,13 +93,15 @@
 
 <!-- wp:group {"metadata":{"name":"Seraphine Portrait Wrap"},"className":"founder-portrait-wrap animate-from-right animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/founder-seraphine.jpg" alt="Seraphine the Wise — a mystical sage with silver-white hair and violet-amber eyes, wearing flowing dark robes with golden embroidery"/></figure>
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/founder-seraphine.jpg" alt="A man stands at the crossroads, contemplating his choices."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Founder Aldric Section"},"className":"founder-section founder-section\u002d\u002dstone founder-aldric","style":{"color":{"background":"#0e0a18"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Founders Bios","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-right"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull founders-bios"><!-- wp:group {"tagName":"section","metadata":{"name":"Founder Aldric Section"},"className":"founder-section founder-section\u002d\u002dstone founder-aldric","style":{"color":{"background":"#0e0a18"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group founder-section founder-section--stone founder-aldric has-background" style="background-color:#0e0a18"><!-- wp:group {"metadata":{"name":"Aldric Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-left","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-inner founder-inner--img-left"><!-- wp:group {"metadata":{"name":"Aldric Text"},"className":"founder-text","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-text"><!-- wp:paragraph {"className":"founder-tag animate-on-scroll","style":{"color":{"text":"#c4a0f0"}}} -->
@@ -116,15 +119,17 @@
 
 <!-- wp:group {"metadata":{"name":"Aldric Portrait Wrap"},"className":"founder-portrait-wrap animate-from-left animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/founder-aldric.jpg" alt="Aldric the Golden — a powerful warrior king in ornate battle-worn golden plate armor, commanding and noble but weary"/></figure>
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/founder-aldric.jpg" alt="A table with quest items overseeing the dark world of Eldermoor."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Founder Thornwen Section"},"className":"founder-section founder-section\u002d\u002dvoid founder-thornwen","style":{"color":{"background":"#0a0612"}},"layout":{"type":"default"}} -->
-<section class="wp-block-group founder-section founder-section--void founder-thornwen has-background" style="background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Thornwen Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-right","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-inner founder-inner--img-right"><!-- wp:group {"metadata":{"name":"Thornwen Text"},"className":"founder-text","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Founders Bios","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-left"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull founders-bios"><!-- wp:group {"tagName":"section","metadata":{"name":"Founder Seraphine Section"},"className":"founder-section founder-section\u002d\u002dvoid founder-seraphine","style":{"color":{"background":"#0a0612"}},"layout":{"type":"default"}} -->
+<section class="wp-block-group founder-section founder-section--void founder-seraphine has-background" style="background-color:#0a0612"><!-- wp:group {"metadata":{"name":"Seraphine Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-right","layout":{"type":"default"}} -->
+<div class="wp-block-group founder-inner founder-inner--img-right"><!-- wp:group {"metadata":{"name":"Seraphine Text"},"className":"founder-text","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-text"><!-- wp:paragraph {"className":"founder-tag animate-on-scroll","style":{"color":{"text":"#c4a0f0"}}} -->
 <p class="founder-tag animate-on-scroll has-text-color" style="color:#c4a0f0">The Green</p>
 <!-- /wp:paragraph -->
@@ -138,23 +143,25 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Thornwen Portrait Wrap"},"className":"founder-portrait-wrap animate-from-right animate-on-scroll","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Seraphine Portrait Wrap"},"className":"founder-portrait-wrap animate-from-right animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/founder-thornwen.jpg" alt="Thornwen the Green — an ancient druidic figure with bark-like skin and cascading autumn-leaf hair, wearing robes of living vines"/></figure>
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/founder-thornwen.jpg" alt="A man stands at the crossroads, contemplating his choices."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Founder Varek Section"},"className":"founder-section founder-section\u002d\u002dvarek founder-varek","style":{"color":{"background":"#07040e"}},"layout":{"type":"default"}} -->
-<section class="wp-block-group founder-section founder-section--varek founder-varek has-background" style="background-color:#07040e"><!-- wp:group {"metadata":{"name":"Varek Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-left","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-inner founder-inner--img-left"><!-- wp:group {"metadata":{"name":"Varek Text"},"className":"founder-text","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Founders Bios","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/character-bio-content-right"},"align":"full","className":"founders-bios","layout":{"type":"default"}} -->
+<div class="wp-block-group alignfull founders-bios"><!-- wp:group {"tagName":"section","metadata":{"name":"Founder Aldric Section"},"className":"founder-section founder-section\u002d\u002dstone founder-aldric","style":{"color":{"background":"#0e0a18"}},"layout":{"type":"default"}} -->
+<section class="wp-block-group founder-section founder-section--stone founder-aldric has-background" style="background-color:#0e0a18"><!-- wp:group {"metadata":{"name":"Aldric Inner"},"className":"founder-inner founder-inner\u002d\u002dimg-left","layout":{"type":"default"}} -->
+<div class="wp-block-group founder-inner founder-inner--img-left"><!-- wp:group {"metadata":{"name":"Aldric Text"},"className":"founder-text","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-text"><!-- wp:paragraph {"className":"founder-tag animate-on-scroll","style":{"color":{"text":"#c4a0f0"}}} -->
 <p class="founder-tag animate-on-scroll has-text-color" style="color:#c4a0f0">The Shieldborn</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"className":"founder-name founder-name\u002d\u002dpurple animate-on-scroll","style":{"typography":{"fontFamily":"var(\u002d\u002dfont-heading)","fontSize":"clamp(2.2rem, 5vw, 3.5rem)"},"color":{"text":"#7B2FBE"}}} -->
-<h2 class="wp-block-heading founder-name founder-name--purple animate-on-scroll has-text-color" style="color:#7B2FBE;font-family:var(--font-heading);font-size:clamp(2.2rem, 5vw, 3.5rem)">Varek</h2>
+<!-- wp:heading {"className":"founder-name animate-on-scroll","style":{"typography":{"fontFamily":"var(\u002d\u002dfont-heading)","fontSize":"clamp(2.2rem, 5vw, 3.5rem)"},"color":{"text":"#C9A84C"}}} -->
+<h2 class="wp-block-heading founder-name animate-on-scroll has-text-color" style="color:#C9A84C;font-family:var(--font-heading);font-size:clamp(2.2rem, 5vw, 3.5rem)">Varek</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"className":"founder-lore animate-on-scroll","style":{"color":{"text":"#d4c9b8"}},"fontSize":"lg"} -->
@@ -162,11 +169,12 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Varek Portrait Wrap"},"className":"founder-portrait-wrap animate-from-left animate-on-scroll","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait founder-portrait\u002d\u002dpurple"} -->
-<figure class="wp-block-image size-full founder-portrait founder-portrait--purple"><img src="http://localhost:8895/wp-content/uploads/2026/03/founder-varek.jpg" alt="Varek the Shieldborn — a scarred, intense young warrior with dark skin and burning amber eyes, purple energy flickering around his fists"/></figure>
+<!-- wp:group {"metadata":{"name":"Aldric Portrait Wrap"},"className":"founder-portrait-wrap animate-from-left animate-on-scroll","layout":{"type":"default"}} -->
+<div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/founder-varek.jpg" alt="A table with quest items overseeing the dark world of Eldermoor."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

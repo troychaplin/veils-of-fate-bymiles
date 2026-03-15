@@ -93,8 +93,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Seraphine Portrait Wrap"},"className":"founder-portrait-wrap animate-from-right animate-on-scroll","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"id":695,"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/choices-matter-crossroads.jpg" alt="A lone cloaked figure stands at a mystical crossroads in a shadowy ancient forest, with multiple glowing paths diverging into darkness — each illuminated by golden and purple magical light, representing the weight of life-changing choices." class="wp-image-695"/></figure>
+<div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/choices-matter-crossroads.jpg" alt="A man stands at the crossroads, contemplating his choices."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -119,7 +119,7 @@
 
 <!-- wp:group {"metadata":{"name":"Classes Grid"},"className":"classes-grid","layout":{"type":"default"}} -->
 <div class="wp-block-group classes-grid"><!-- wp:group {"tagName":"article","metadata":{"name":"Veilweaver Card"},"className":"class-card class-card\u002d\u002dfeatured animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card class-card--featured animate-on-scroll"><!-- wp:group {"metadata":{"name":"Veilweaver Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-veilweaver.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card class-card--featured animate-on-scroll"><!-- wp:group {"metadata":{"name":"Veilweaver Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-necromancer.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Veilweaver Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -137,7 +137,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Shadowblade Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Shadowblade Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-ranger.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Shadowblade Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-ranger.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Shadowblade Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -155,7 +155,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Ironwarden Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Ironwarden Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/paladin-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Ironwarden Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-paladin.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Ironwarden Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -173,8 +173,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Bard Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Bard Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/bard-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Bard Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-bard.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Bard Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
 
@@ -191,7 +191,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Doomcaller Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/dark-mage-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-dark-mage.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -209,7 +209,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Doomcaller Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-warrior.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-warrior.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -227,7 +227,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Rogue Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Rogue Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/rogue-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Rogue Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-rogue.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -245,8 +245,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Cleric Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Cleric Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/cleric-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Cleric Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-cleric.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Cleric Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
 
@@ -299,8 +299,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Aldric Portrait Wrap"},"className":"founder-portrait-wrap animate-from-left animate-on-scroll","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"id":697,"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/eldermoor-game-features.jpg" alt="Dark fantasy illustration of the ancient citadel city of Eldermoor, glowing with gold and purple magical light against a stormy sky, with an adventurer's maps, potions, and quest scrolls in the foreground" class="wp-image-697"/></figure>
+<div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/eldermoor-game-features.jpg" alt="A table with quest items overseeing the dark world of Eldermoor."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

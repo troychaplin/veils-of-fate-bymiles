@@ -5,7 +5,7 @@
  * Categories: veils-layouts
  */
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"World Section"},"align":"full","className":"world","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"},"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/world-veil.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"World Section","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/3-pillar-world-section-with-animated-header"},"align":"full","className":"world","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)"},"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/world-veil.jpg"},"backgroundSize":"cover","backgroundPosition":"center center"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull world has-background" id="world" style="background-color:var(--wp--preset--color--c-stone)"><!-- wp:group {"metadata":{"name":"World Inner"},"className":"world-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group world-inner"><!-- wp:group {"metadata":{"name":"World Header"},"className":"world-header animate-on-scroll","layout":{"type":"constrained"}} -->
 <div class="wp-block-group world-header animate-on-scroll"><!-- wp:paragraph {"className":"has-text-align-center section-tag","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall)","fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"#c4a0f0"}}} -->
@@ -24,7 +24,7 @@
 <!-- wp:group {"metadata":{"name":"World Pillars"},"align":"wide","className":"world-pillars","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide world-pillars"><!-- wp:group {"tagName":"article","metadata":{"name":"Pillar - The Thinning Veil"},"className":"world-pillar animate-on-scroll","layout":{"type":"default"}} -->
 <article class="wp-block-group world-pillar animate-on-scroll"><!-- wp:image {"id":260,"sizeSlug":"medium","linkDestination":"none","className":"pillar-image"} -->
-<figure class="wp-block-image size-medium pillar-image"><img src="http://localhost:8895/wp-content/uploads/2026/03/act-3-quest-5-epilogue-b-cold-gem-672x351.jpg" alt="Eldermoor has rebuilt but the Purple Gem's light is cold and uninviting, citizens walking past with averted eyes, the founders' statues standing untouched but unvisited." class="wp-image-260"/></figure>
+<figure class="wp-block-image size-medium pillar-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pillars-cold-gem.jpg" alt="Eldermoor has rebuilt but the Purple Gem's light is cold and uninviting, citizens walking past with averted eyes, the founders' statues standing untouched but unvisited." class="wp-image-260"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
@@ -38,7 +38,7 @@
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Pillar - The Five Dominions"},"className":"world-pillar animate-on-scroll","layout":{"type":"default"}} -->
 <article class="wp-block-group world-pillar animate-on-scroll"><!-- wp:image {"id":42,"sizeSlug":"medium","linkDestination":"none","className":"pillar-image"} -->
-<figure class="wp-block-image size-medium pillar-image"><img src="http://localhost:8895/wp-content/uploads/2026/03/act-0-quest-1-scene-1-founding-celebration-672x375.jpg" alt="Four founders gather around a glowing purple gem in a lantern-lit medieval town square during a grand celebration." class="wp-image-42"/></figure>
+<figure class="wp-block-image size-medium pillar-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pillars-founding-celebration.jpg" alt="Four founders gather around a glowing purple gem in a lantern-lit medieval town square during a grand celebration." class="wp-image-42"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
@@ -52,7 +52,7 @@
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Pillar - The Shadow Tide"},"className":"world-pillar animate-on-scroll","layout":{"type":"default"}} -->
 <article class="wp-block-group world-pillar animate-on-scroll"><!-- wp:image {"id":315,"sizeSlug":"medium","className":"pillar-image"} -->
-<figure class="wp-block-image size-medium pillar-image"><img src="http://localhost:8895/wp-content/uploads/2026/03/forge-your-fate-crossroads.jpg" alt="Forge Your Fate — a dramatic crossroads with two diverging paths lit by different ethereal lights" class="wp-image-315"/></figure>
+<figure class="wp-block-image size-medium pillar-image"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pillars-forge-your-fate.jpg" alt="Forge Your Fate — a dramatic crossroads with two diverging paths lit by different ethereal lights" class="wp-image-315"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"level":3,"className":"pillar-title","style":{"color":{"text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-gold)"}},"fontSize":"2xl","fontFamily":"cormorant-garamond"} -->
@@ -67,7 +67,7 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Classes Section"},"align":"full","className":"classes","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-void)"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Classes Section","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/4-class-card-grid-with-featured-item"},"align":"full","className":"classes","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-void)"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull classes has-background" id="classes" style="background-color:var(--wp--preset--color--c-void)"><!-- wp:group {"metadata":{"name":"Classes Inner"},"className":"classes-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group classes-inner"><!-- wp:group {"metadata":{"name":"Classes Header"},"className":"classes-header animate-on-scroll","layout":{"type":"constrained"}} -->
 <div class="wp-block-group classes-header animate-on-scroll"><!-- wp:paragraph {"className":"has-text-align-center section-tag","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall)","fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"#c4a0f0"}}} -->
@@ -85,7 +85,7 @@
 
 <!-- wp:group {"metadata":{"name":"Classes Grid"},"className":"classes-grid","layout":{"type":"default"}} -->
 <div class="wp-block-group classes-grid"><!-- wp:group {"tagName":"article","metadata":{"name":"Veilweaver Card"},"className":"class-card class-card\u002d\u002dfeatured animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card class-card--featured animate-on-scroll"><!-- wp:group {"metadata":{"name":"Veilweaver Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-veilweaver.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card class-card--featured animate-on-scroll"><!-- wp:group {"metadata":{"name":"Veilweaver Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-necromancer.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Veilweaver Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -103,7 +103,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Shadowblade Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Shadowblade Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-ranger.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Shadowblade Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-ranger.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Shadowblade Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -121,7 +121,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Ironwarden Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Ironwarden Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/paladin-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Ironwarden Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-paladin.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Ironwarden Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -139,8 +139,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Bard Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Bard Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/bard-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Bard Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-bard.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Bard Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
 
@@ -157,7 +157,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Doomcaller Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/dark-mage-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-dark-mage.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -175,7 +175,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Doomcaller Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"/wp-content/uploads/2026/03/class-warrior.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Doomcaller Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-warrior.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -193,7 +193,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Rogue Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Rogue Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/rogue-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Rogue Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-rogue.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
@@ -211,8 +211,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"tagName":"article","metadata":{"name":"Cleric Card"},"className":"class-card animate-on-scroll","layout":{"type":"default"}} -->
-<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Cleric Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"http://localhost:8895/wp-content/uploads/2026/03/cleric-class-card.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Doomcaller Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
+<article class="wp-block-group class-card animate-on-scroll"><!-- wp:group {"metadata":{"name":"Cleric Card Image"},"className":"class-card-image","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/class-cleric.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group class-card-image"><!-- wp:group {"metadata":{"name":"Cleric Card Overlay [Decorative]"},"className":"class-card-overlay miles-editor-hidden"} -->
 <div class="wp-block-group class-card-overlay miles-editor-hidden"></div>
 <!-- /wp:group -->
 
@@ -231,7 +231,7 @@
 <!-- /wp:group --></section>
 <!-- /wp:group -->
 
-<!-- wp:group {"tagName":"section","metadata":{"name":"Features Section"},"align":"full","className":"features","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"default"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"Features Section","categories":["veils-patterns"],"patternName":"miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/4-feature-list-with-numbered-items-and-animations"},"align":"full","className":"features","style":{"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-stone)","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"default"}} -->
 <section class="wp-block-group alignfull features has-text-color has-background" id="features" style="color:var(--wp--preset--color--c-bone);background-color:var(--wp--preset--color--c-stone)"><!-- wp:group {"metadata":{"name":"Features Inner"},"className":"features-inner","layout":{"type":"default"}} -->
 <div class="wp-block-group features-inner"><!-- wp:group {"metadata":{"name":"Features Header"},"className":"features-header animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group features-header animate-on-scroll"><!-- wp:paragraph {"className":"has-text-align-center section-tag","style":{"typography":{"fontSize":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dfont-size\u002d\u002dsmall)","fontFamily":"var(\u002d\u002dfont-display)","textAlign":"center"},"color":{"text":"#c4a0f0"}}} -->
