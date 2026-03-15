@@ -5,6 +5,12 @@
  * Inserter: no
  */
 ?>
+<!-- wp:group {"metadata":{"name":"Beta Message"},"style":{"border":{"top":{"style":"none","width":"0px"},"bottom":{"color":"var:preset|color|c-purple-dark","width":"1px"}},"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"margin":{"bottom":"-1.2rem"}},"position":{"type":"sticky","top":"0px"}},"backgroundColor":"c-void","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-c-void-background-color has-background" style="border-top-style:none;border-top-width:0px;border-bottom-color:var(--wp--preset--color--c-purple-dark);border-bottom-width:1px;margin-bottom:-1.2rem;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|c-gold"}}}},"textColor":"c-gold","fontSize":"lg","fontFamily":"cinzel-decorative"} -->
+<p class="has-text-align-center has-c-gold-color has-text-color has-link-color has-cinzel-decorative-font-family has-lg-font-size">Beta Opens March 20, 2026</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
 <!-- wp:group {"tagName":"section","metadata":{"name":"Hero Section"},"align":"full","className":"hero","style":{"background":{"backgroundImage":{"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero-portal.jpg"},"backgroundSize":"cover","backgroundPosition":"center top"},"color":{"background":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-void)","text":"var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dc-bone)"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull hero has-text-color has-background" style="color:var(--wp--preset--color--c-bone);background-color:var(--wp--preset--color--c-void)"><!-- wp:group {"metadata":{"name":"Hero Header"},"align":"wide","className":"hero-header","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hero-header"><!-- wp:image {"width":"140px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
