@@ -3143,6 +3143,16 @@ header.wp-block-template-part:has([class*="header"][style*="position:sticky"]) {
       flex: 1;
     }
 
+    .founders-lore-title {
+      font-family: 'Cormorant Garamond', Georgia, serif !important;
+      font-size: clamp(2.2rem, 5vw, 3.5rem);
+      font-weight: 700;
+      color: var(--wp--preset--color--c-gold);
+      margin: 0 0 var(--wp--preset--spacing--30) 0;
+      line-height: 1.1;
+      text-shadow: 0 0 30px rgba(201,168,76,0.4), 0 2px 4px rgba(0,0,0,0.6);
+    }
+
     .founders-lore-text {
       color: var(--wp--preset--color--c-bone);
       font-family: var(--wp--preset--font-family--lato);

@@ -597,16 +597,19 @@
 			},
 			"h1": {
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
 					"fontSize": "var(--wp--preset--font-size--display)"
 				}
 			},
 			"h2": {
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
 					"fontSize": "var(--wp--preset--font-size--huge)"
 				}
 			},
 			"h3": {
 				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--cormorant-garamond)",
 					"fontSize": "var(--wp--preset--font-size--3-xl)"
 				}
 			},
