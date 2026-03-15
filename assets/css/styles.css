@@ -5262,9 +5262,11 @@ header.wp-block-template-part:has([class*="header"][style*="position:sticky"]) {
   position: relative;
   padding-bottom: 4px;
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
-.site-header-custom .header-nav-custom .wp-block-navigation-item a::after {
+.site-header-custom .header-nav-custom .wp-block-navigation-item a::after,
+.site-header-custom .header-nav-custom .current-menu-item a::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -5275,7 +5277,8 @@ header.wp-block-template-part:has([class*="header"][style*="position:sticky"]) {
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-.site-header-custom .header-nav-custom .wp-block-navigation-item a:hover::after {
+.site-header-custom .header-nav-custom .wp-block-navigation-item a:hover::after,
+.site-header-custom .header-nav-custom .current-menu-item a::after {
   width: 100%;
   left: 0;
 }
