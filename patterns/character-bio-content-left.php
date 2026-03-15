@@ -24,7 +24,7 @@
 
 <!-- wp:group {"metadata":{"name":"Seraphine Portrait Wrap"},"className":"founder-portrait-wrap animate-from-right animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/choices-matter-crossroads.jpg" alt="Seraphine the Wise — a mystical sage with silver-white hair and violet-amber eyes, wearing flowing dark robes with golden embroidery"/></figure>
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/choices-matter-crossroads.jpg" alt="A man stands at the crossroads, contemplating his choices."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>

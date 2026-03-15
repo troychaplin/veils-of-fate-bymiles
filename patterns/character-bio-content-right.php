@@ -24,7 +24,7 @@
 
 <!-- wp:group {"metadata":{"name":"Aldric Portrait Wrap"},"className":"founder-portrait-wrap animate-from-left animate-on-scroll","layout":{"type":"default"}} -->
 <div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/eldermoor-game-features.jpg" alt="Aldric the Golden — a powerful warrior king in ornate battle-worn golden plate armor, commanding and noble but weary"/></figure>
+<figure class="wp-block-image size-full founder-portrait"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/eldermoor-game-features.jpg" alt="A table with quest items overseeing the dark world of Eldermoor."/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
