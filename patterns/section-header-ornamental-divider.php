@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Page Header & Ornamental Divider
+ * Title: Section Header & Ornamental Divider
  * Slug: miles-veils-of-fate-tales-of-eldermoor-fc13d6a3/page-header-ornamental-divider
  * Categories: veils-patterns
  */
