@@ -93,8 +93,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Seraphine Portrait Wrap"},"className":"founder-portrait-wrap animate-from-right animate-on-scroll","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/founder-seraphine.jpg" alt="Seraphine the Wise — a mystical sage with silver-white hair and violet-amber eyes, wearing flowing dark robes with golden embroidery"/></figure>
+<div class="wp-block-group founder-portrait-wrap animate-from-right animate-on-scroll"><!-- wp:image {"id":695,"sizeSlug":"full","className":"founder-portrait"} -->
+<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/choices-matter-crossroads.jpg" alt="A lone cloaked figure stands at a mystical crossroads in a shadowy ancient forest, with multiple glowing paths diverging into darkness — each illuminated by golden and purple magical light, representing the weight of life-changing choices." class="wp-image-695"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
@@ -299,8 +299,8 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"metadata":{"name":"Aldric Portrait Wrap"},"className":"founder-portrait-wrap animate-from-left animate-on-scroll","layout":{"type":"default"}} -->
-<div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"sizeSlug":"full","className":"founder-portrait"} -->
-<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/founder-aldric.jpg" alt="Aldric the Golden — a powerful warrior king in ornate battle-worn golden plate armor, commanding and noble but weary"/></figure>
+<div class="wp-block-group founder-portrait-wrap animate-from-left animate-on-scroll"><!-- wp:image {"id":697,"sizeSlug":"full","className":"founder-portrait"} -->
+<figure class="wp-block-image size-full founder-portrait"><img src="http://localhost:8895/wp-content/uploads/2026/03/eldermoor-game-features.jpg" alt="Dark fantasy illustration of the ancient citadel city of Eldermoor, glowing with gold and purple magical light against a stormy sky, with an adventurer's maps, potions, and quest scrolls in the foreground" class="wp-image-697"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></section>
