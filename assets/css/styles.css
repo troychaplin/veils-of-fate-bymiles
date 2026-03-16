@@ -2020,6 +2020,14 @@ color: #ffffff;
   text-decoration: none;
 }
 
+body.logged-in .wp-block-navigation.nav-logged-out {
+    display: none;
+}
+
+body:not(.logged-in) .wp-block-navigation.nav-logged-in {
+    display: none;
+}
+
 /* wp:navigation block resets */
 :where(.wp-block-navigation),
 :where(.wp-block-navigation-item__content) {
