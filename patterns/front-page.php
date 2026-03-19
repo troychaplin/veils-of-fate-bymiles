@@ -7,7 +7,7 @@
 ?>
 <!-- wp:group {"metadata":{"name":"Beta Message"},"style":{"border":{"top":{"style":"none","width":"0px"},"bottom":{"color":"var:preset|color|c-purple-dark","width":"1px"}},"spacing":{"padding":{"right":"var:preset|spacing|60","left":"var:preset|spacing|60","top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"margin":{"bottom":"-1.2rem"}},"position":{"type":"sticky","top":"0px"}},"backgroundColor":"c-void","layout":{"type":"constrained"}} -->
 <div class="wp-block-group has-c-void-background-color has-background" style="border-top-style:none;border-top-width:0px;border-bottom-color:var(--wp--preset--color--c-purple-dark);border-bottom-width:1px;margin-bottom:-1.2rem;padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|c-gold"}}}},"textColor":"c-gold","fontSize":"base","fontFamily":"cinzel-decorative"} -->
-<p class="has-text-align-center has-c-gold-color has-text-color has-link-color has-cinzel-decorative-font-family has-base-font-size">Demo Available March 20, 2026</p>
+<p class="has-text-align-center has-c-gold-color has-text-color has-link-color has-cinzel-decorative-font-family has-base-font-size">The first Tale is now AvailabLe</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -33,7 +33,7 @@
 <p class="has-text-align-center hero-narrative has-text-color has-2-xl-font-size" style="color:#ffffff"><em>The heroes of Eldermoor were never what they seemed. The gem remembers what the histories forgot — and it chose you to learn the truth. Your choices will shape alliances, reveal betrayals, and determine whether a city built on lies can survive the light.</em></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"metadata":{"name":"Hero CTA Area"},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Hero CTA Area","blockVisibility":false},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hero-cta-area"><!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"hero-cta"} -->
 <div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="/the-founders">the Founders</a></div>
@@ -45,14 +45,14 @@
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"Hero CTA Area","blockVisibility":false},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
+<!-- wp:group {"metadata":{"name":"Hero CTA Area"},"align":"wide","className":"hero-cta-area","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide hero-cta-area"><!-- wp:buttons {"metadata":{"name":"Hero CTA Buttons"},"style":{"spacing":{"blockGap":{"left":"var:preset|spacing|30"}}}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"hero-cta"} -->
 <div class="wp-block-button hero-cta"><a class="wp-block-button__link wp-element-button" href="/quest/the-fading-light/"><span class="hero-cta-glow"></span>Enter the Veil</a></div>
 <!-- /wp:button -->
 
 <!-- wp:button {"className":"hero-cta hero-cta-login"} -->
-<div class="wp-block-button hero-cta hero-cta-login"><a class="wp-block-button__link wp-element-button" href="/register"><span class="hero-cta-glow"></span>Login</a></div>
+<div class="wp-block-button hero-cta hero-cta-login"><a class="wp-block-button__link wp-element-button" href="/login"><span class="hero-cta-glow"></span>Login</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
